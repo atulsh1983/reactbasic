@@ -1,0 +1,2158 @@
+<!DOCTYPE html>
+
+<head>
+<meta content="IE=edge" http-equiv="X-UA-Compatible">
+<meta http-equiv="content-language" content="en" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link rel="shortcut icon" href="/favicon1.ico" />
+<link rel="stylesheet" async=true type="text/css" href="http://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Finalize Cart - Jeevansathi.com</title>
+<meta name="keywords" content="Jeevansathi, membership plans, value added services, payments, eRishta, eSathi, eValue, eAdvantage, jsExclusive, callback, prices, plans, payAtBranches, cheque drop, cheque pickup, inquire, compare plans, benefits, membership" />
+<link rel="stylesheet" type="text/css" href="http://static.jeevansathi.com/min/?f=/css/jspc/common/commonJspc_css_4.css,/css/jspc/common/fontsJspc_css_1.css,/css/jspc/common/headerFooterJspc_css_5.css,/css/helpWidget_css_4.css,/css/jspc/common/mCustomScrollBar_css_1.css,/css/rippleEffectCommon_css_2.css" />
+<link href="jspc_mem_css_2.css" type="text/css" rel="stylesheet"/>
+<link rel="stylesheet" type="text/css" href="http://static.jeevansathi.com/min/?f=/css/jspc/membership/jspc_mem_sweetalert_1.css,/css/jspc/membership/jspc_mem_scrollpane_1.css,/css/jspc/membership/jspc_mem_custom_select_1.css" />
+<script type="text/javascript" language="Javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript" src="http://static.jeevansathi.com/min/?f=/js/tracking_js_6.js,/js/jspc/common/AjaxWrapper_3.js"></script>
+
+</head>
+
+<noscript>
+<div class="bg_pink lh46 f18 txtc colrw fontreg boxshadow" style="font-weight: 300;">You have not enabled Javascript on your browser, please enable it to use the website</div>
+</noscript>
+<body >
+<div id="clickHolderCE" onclick="javascript:updateClickHolderCE(false,event)" style="height:0px;width:0px">&nbsp;</div>
+<div id="clickHolder" onclick="javascript:updateClickHolder(false,event)" style="height:0px;width:0px" >&nbsp;</div>
+<div id="commonOverlay" class="jspcOverlay js-overlay overlayZ disp-none"></div>
+<!--start:error layer-->
+<div class="pos_fix fullwid z6" style="background-color:#fdfdfd; display:none;" id="commonError">
+  <div class="container errwid2 pt10 pb10">
+    <div class="fl"> <i class="sprite2 erric1"></i> </div>
+    <div class="fl f20 fontlig color11 pt10 pl20" id="js-commonErrorMsg"> Something went wrong. Please try again after some time. </div>
+  </div>
+</div>
+<!--end:error layer--> 
+<script type="text/javascript">
+$('body').addClass('hasJS');
+var profileid = "13171207";
+var tabVal = 3;
+var currency = "&#8377;";
+var pageType = 'cartPage';
+var preFilledEmail = "atulsh1983@gmail.com";
+var preFilledMobNo = "9910244159";
+var helpAllStr;
+var bannerMsg;
+var bannerTimeout;
+var showCountdown;
+var countdown;
+var topBlockMsg;
+var topBlockCLT;
+var topBlockCLN;
+var topBlockDays;
+var topBlockMonths;
+var vasNames;
+var paidBenefits;
+var openedCount;
+var skipVasPageMembershipBased = JSON.parse("[&quot;X&quot;,&quot;ESP&quot;]".replace(/&quot;/g,'"'));
+
+</script> 
+<!--r_num is variable number whose value is fetched from Auth filter in case of JSPC and assigned to script to be accessed in commonExpiration_js.js--> 
+<!--start:header-->
+<header>
+  <div class="mem-coverimg">
+    <div class="container mainwid mem-pad1 fontreg"> 
+      <!--start:top navigation bar-->
+      <div id="topNavigationBar" class="pos_rel fullwid color-block clearfix"> 
+        <!--start:logo-->
+        <div id="jeevansathiLogo" class="fl hpwid1 logop1 hpwhite txtc disp-tbl">
+          <p class="lgo" itemtype="http://schema.org/Organization" itemscope=""> <a class="disp-cell vmid pl10" href="/myjs/jspcPerform" itemprop="url"> <img class="brdr-0 vmid" alt="Indian Matrimonials - We Match Better" src="http://www.jeevansathi.com/images/jspc/commonimg/logo1.png" itemprop="logo"> </a> </p>
+        </div>
+        <!--end:logo--> 
+        <!--start:nav-->
+        <div class="fl mt23 toplink f14">
+          <nav> <a class="cursp" href="/myjs/jspcPerform"><span id="homepageLink" class="cursp">HOME</span></a> <span id="headerRequestCallback" class="ml30 cursp">REQUEST CALLBACK</span> <span id="liveChatLinkHeader" class="cursp ml30">LIVE CHAT</span> <a class="cursp" href="/contactus/index"><span id="contactUsLinkHeader" class="cursp">CONTACT US</span></a> <span id="helplineNoHeader" style="color:#fff" class="ml30">1-800-419-6299 (Toll Free)</span> </nav>
+        </div>
+        <!--end:nav--> 
+        <!--start:image-->
+        <div class="fr">
+          <div style="padding:10px 30px 0 0"><a href="/profile/viewprofile.php?ownview=1" alt=""><img src="http://mediacdn.jeevansathi.com/3050/4/61004189-1462357813.jpeg" style="height: 46px; width: 46px;border-radius: 23px;"></a></div>
+        </div>
+        <!--end:image--> 
+        <!--start:callback form-->
+        <div id="headerRequestCallbackLogout" class="pos-abs z5" style="display:none"> <i class="reqCalbck-sprite pos-abs reqCalbck-cross2 cursp reqCalbck-pos12" id="headerRequestCallbackLogoutCloseBtn"></i>
+          <div class="bg-white" style="width:450px;border-radius:5px">
+            <div class="reqCalbck-pad33">
+              <form>
+                <div id="headerReqEmail" class="reqCalbck-bdr12 f17 pb5">
+                  <input type="text" class="fullwid brdr-0 f17 color11 fontlig whiteout" placeholder="E-Mail" value=""/>
+                </div>
+                <div id="headerReqEmailError" style="color:red;display:none" class="f14 pt8">Please provide a valid E-Mail Id</div>
+                <div id="headerReqMob" class="reqCalbck-bdr12 f17 pb5 pt20">
+                  <input type="text" class="fullwid brdr-0 f17 color11 fontlig whiteout" placeholder="Mobile number" value=""/>
+                </div>
+                <div id="headerReqMobError" style="color:red;display:none" class="f14 pt8">Please provide a valid Phone Number</div>
+                <div class="pt20">
+                  <div class="reqCalbck-bdr12 colr2 f17 pb5 pt10 cursp pos-rel js-drop" id="headerDatefld"> <span class="headerDatefld-val f15 fontlig js-fill">Questions regarding Jeevansathi Membership Plans</span>
+                    <div class="pos-abs reqCalbck-leftcorner_trianle1 reqCalbck-pos6 z2"></div>
+                    <div class="pos-abs fullwid reqCalbck-pos7">
+                      <div id="reqCalbck-content-1" class="reqCalbck-content z1 reqCalbck-drop1 headerDatefld-drop disp-none" >
+                        <ul data-attr="headerDatefld-list">
+                          <li selectedid="M" class="fontlig f14 active">Questions regarding Jeevansathi Membership Plans</li>
+                          <li selectedid="P" class="fontlig f14">Questions or feedback regarding Jeevansathi Profile</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div id="headerReqQueryError" style="color:red;display:none" class="f14 pt8">Please select valid Query Type</div>
+                <div class="pt20">
+                  <div style="overflow: hidden;position: relative;">
+                    <div id="headerSubmitCallbackRequest" class="cursp fullwid bg_pink txtc lh50 colrw pinkRipple hoverPink">Submit Request</div>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div id="headerRequestCallbackLogin" class="pos-abs z5" style="display:none"> <i class="reqCalbck-sprite pos-abs reqCalbck-cross2 cursp reqCalbck-pos12" id="headerRequestCallbackLoginCloseBtn"></i>
+          <div class="bg-white" style="width:450px;border-radius:5px">
+            <div class="reqCalbck-pad33">
+              <div id="headerReqCallBackMessage" class="fullwid txtc lh20" style="color: black"></div>
+            </div>
+          </div>
+        </div>
+        <!--end:callback form--> 
+        <script type="text/javascript">
+var loginData = new Array();
+
+
+$(window).load(function(){
+var reqCallbackError = true;
+var regExEmail=/^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,4})$/;
+var regExIndian=/^((\+){0,1}91(\s){0,1}(\-){0,1}(\s){0,1})?([0-9]{10})$/;
+var regExIndianLandline=/^[0-9]\d{2,4}[-. ]?\d{6,8}$/;
+var regExInternational=/^\+(?:[0-9][-. ]? ?){7,14}[0-9]$/;
+var module = "membership";
+var loggedIn = "1";
+var loginPhone = "9910244159";
+var loginEmail = "atulsh1983@gmail.com";
+
+if(loginEmail){
+$('#headerReqEmail input').val(loginEmail);
+}
+
+if(loginPhone){
+$('#headerReqMob input').val(loginPhone);
+}
+
+$("#headerRequestCallback").click(function(e){
+if(!$(".overlay1").length){
+$("#topNavigationBar").addClass('pos-rel layersZ');
+$("#headerRequestCallback").addClass('js-reqcallbck opa50');
+$('header').before('<div class="overlay1"></div>');
+$("#headerRequestCallbackLogout").show();
+} else {
+$("#topNavigationBar").removeClass('pos-rel layersZ');
+$("#headerRequestCallback").removeClass('js-reqcallbck opa50');
+$('.overlay1').remove();
+$("#headerRequestCallbackLogout,#headerRequestCallbackLogin").hide();
+}
+});
+
+$('#headerReqEmail input').on('blur', function() {
+if(!regExEmail.test($(this).val().toLowerCase())){
+$("#headerReqEmailError").show();
+reqCallbackError = true;
+} else {
+$("#headerReqEmailError").hide();
+reqCallbackError = false;
+}
+});
+
+$('#headerReqMob input').on('blur', function() {
+if(!regExIndian.test($(this).val()) && !regExInternational.test($(this).val()) && !regExIndianLandline.test($(this).val())) {
+$("#headerReqMobError").show();
+reqCallbackError = true;
+} else {
+$("#headerReqMobError").hide();
+reqCallbackError = false;
+}
+});
+
+$("#headerSubmitCallbackRequest").click(function(e){
+var phNo = $("#headerReqMob input").val();
+var email = $("#headerReqEmail input").val().toLowerCase();
+var selectedid = $("#headerDatefld ul li.active").attr('selectedid');
+if((regExIndian.test(phNo) || regExInternational.test(phNo) || regExIndianLandline.test(phNo)) && regExEmail.test(email) && selectedid != 'Q') {
+if(selectedid == 'M') {
+$.post("/membership/addCallBck",{'phNo':phNo.trim(),'email':email.trim(),'jsSelectd':'P3','execCallbackType':'JS_ALL','tabVal':1,'device':'desktop'},function(response){
+$("#headerReqCallBackMessage").text(response);
+$("#headerRequestCallbackLogout").hide();
+$("#headerRequestCallbackLogin").show();
+$("#headerReqQueryError,#headerReqEmailError,#headerReqMobError").hide();
+});
+} else {
+$.post("/common/requestCallBack",{'email':email.trim(),'phone':phNo.trim(),'query_type':'P'},function(response){
+if(response == "Y") {
+$("#headerReqCallBackMessage").text('We shall call you at the earliest');
+} else {
+$("#headerReqCallBackMessage").text('Something Went Wrong...\nPlease try again !');
+}
+$("#headerRequestCallbackLogout").hide();
+$("#headerRequestCallbackLogin").show();
+$("#headerReqQueryError,#headerReqEmailError,#headerReqMobError").hide();
+});
+}
+} else {
+if(!regExIndian.test(phNo) && !regExInternational.test(phNo) && !regExIndianLandline.test(phNo)) {
+$("#headerReqMobError").show();
+}
+if(!regExEmail.test(email)){
+$("#headerReqEmailError").show();
+}
+if(selectedid == "Q"){
+$("#headerReqQueryError").show();
+}
+}
+});
+
+$('#headerRequestCallbackLoginCloseBtn, #headerRequestCallbackLogoutCloseBtn').click(function(e){
+$("#topNavigationBar").removeClass('pos-rel layersZ');
+$("#headerRequestCallback").removeClass('js-reqcallbck opa50');
+$('.overlay1').remove();
+$("#headerRequestCallbackLogout,#headerRequestCallbackLogin").hide();
+});
+
+if(module == 'membership'){
+$("#headerRequestCallbackLogout,#headerRequestCallbackLogin").addClass('mem-pos10');
+} else {
+$("#headerRequestCallbackLogout,#headerRequestCallbackLogin").css('top','75px');
+
+if(loggedIn){
+$("#headerRequestCallbackLogout,#headerRequestCallbackLogin").css('left','370px');
+} else {
+$("#headerRequestCallbackLogout,#headerRequestCallbackLogin").css('left','300px');
+}
+}
+
+$(document).keyup(function(e) {
+if($("#headerRequestCallbackLogout,#headerRequestCallbackLogin").is(':visible')){
+if (e.keyCode == 27) {
+$("#topNavigationBar").removeClass('pos-rel layersZ');
+$("#headerRequestCallback").removeClass('js-reqcallbck opa50');
+$('.overlay1').remove();
+$("#headerRequestCallbackLogout,#headerRequestCallbackLogin").hide();
+}
+}
+});
+
+});
+$(function() {
+// check pick up drop down
+$('.js-drop').click(function() {
+$('.js-drop .reqCalbck-drop1').slideUp(300);
+var getElemId = $(this).attr('id');
+var DropDownName = getElemId;
+$('.' + DropDownName + '-drop').slideToggle(300);
+});
+$('.reqCalbck-drop1 ul li').click(function(event) {
+event.stopPropagation();
+var OptSel = $(this).text(),getlistName = $(this).parent().attr('data-attr');
+var b = getlistName.split('-');
+var temp = b[0];
+$('span.' + temp + '-val').text(OptSel);
+$('.js-drop .reqCalbck-drop1').slideUp(300);
+});
+$('.js-fill').on('keydown', function(e) {
+var s = String.fromCharCode(e.which);
+});
+});
+</script> 
+      </div>
+      <!--end:top navigation bar-->
+      <div id="memebershipPageContent" class='disp-none'> 
+        <!--start:expand div-->
+        <div class="padallk f15 colrw js-expand">
+          <div class="pt37">Why Jeevansathi Membership</div>
+          <div class="mem_pad15">
+            <div class="fullwid clearfix"> 
+              <!--start:left-->
+              <div class="fl"> <img src="http://www.jeevansathi.com/images/jspc/membership_img/image-1.png"> </div>
+              <!--end:left--> 
+              <!--start:right-->
+              <div id="bannerContent" class="fr">
+                <div class="mem_bgwh fontmed mem_wid278">
+                  <div class="mem-pad2">
+                    <div id="bannerTextTop" class="f20"></div>
+                    <div class="pt17 pb10 f20" id="bannerExpandedTimer"></div>
+                  </div>
+                </div>
+              </div>
+              <!--end:right--> 
+            </div>
+          </div>
+        </div>
+        <!--ent:expand div--> 
+        <!--start:close view-->
+        <div class="mem_pad12 js-closeview disp-none">
+          <div class="fullwid mem_bgwh clearfix mem_pad13 fontmed colrw">
+            <div id="bannerTextMinimize" class="fl pl30"> <span class="f24 disp_ib"></span> </div>
+            <div class="fr f20 timer pr30" id="bannerMinimizedTimer"> </div>
+          </div>
+        </div>
+        <!--end:close view--> 
+        <!--start:toggle icon-->
+        <div id="bannerMinimize" class="txtc mem_pad11"> <i id="js-panelbtn" class="cursp headfootsprtie mem-up"></i> </div>
+        <!--end:toggle icon--> 
+      </div>
+      <div id="vasPageContent" class='disp-none'> 
+        <!--start:div-->
+        <div class="pt30 mauto mem-wid13 pb30"> 
+          <!--start:list-->
+          <div class="pb10">
+            <ul class="hor_list clearfix fontlig colrw f20" >
+              <li class="opa80 wid33p_1 txtc">Membership Plan</li>
+              <li class="wid33p_1 txtc">Value Added Services</li>
+              <li class="opa30 wid33p_1 txtc">Payment</li>
+            </ul>
+          </div>
+          <!--end:list--> 
+          <!--start:progress bar-->
+          <div class="pos-rel mem-wid13 mem-hgt1"> 
+            <!--start:opaque line-->
+            <div class="pos-abs fullwid mem-pos2">
+              <div class="opa30 mem-brd2"></div>
+            </div>
+            <!--end:opaque line--> 
+            <!--start:dark line-->
+            <div class="pos-abs wid50p mem-pos2">
+              <div class="mem-brd2"></div>
+            </div>
+            <!--end:dark line--> 
+            <!--start:div-->
+            <div class="clearfix">
+              <div class="wid33p_1 txtc fl"> <i class="mem-sprite mem-check1 z2 pos-rel"></i> </div>
+              <div class="wid33p_1 txtc fl"> <i class="mem-sprite mem-notcheck z2 pos-rel"></i> </div>
+            </div>
+            <!--end:div--> 
+          </div>
+          <!--end:progress bar--> 
+          <!--start:list-->
+          <div class="pt12">
+            <ul class="hor_list clearfix fontlig colrw f13" >
+              <li class="opa80 wid33p_1 txtc">Done</li>
+              <li class="wid33p_1 txtc">Select</li>
+              <li class="opa30 wid33p_1 txtc">Pending</li>
+            </ul>
+          </div>
+          <!--end:list--> 
+        </div>
+        <!--end:div--> 
+      </div>
+      <div id="vasPagePaidMemberContent" class='disp-none'> 
+        <!--start:div-->
+        <div class="mem_pad21 clearfix"> 
+          <!--start:left-->
+          <div class="fl mem-widp12 disp-none" id="ConditionsBasedDiv">
+            <div class="f19 color12 pb15" id ="messageDiv"></div>
+            <ul id="paidBenefits" class="clearfix hor_list memfealist colrw fontlig f15">
+            </ul>
+            <div class="mem_pad22">
+              <div class="pt5 colrw mem-brd10 clearfix">
+                <div class="fl">
+                  <div id="bannerTextVas" class="mt10 f20"></div>
+                  <div class="pt17 f20" id="bannerTimerVas"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="fl mem-widp12 disp-none" id="ConditionsBasedDivVasPaid">
+            <div class="f19 color12 pb15">Benefits of your membership; for more benefits choose from value added services</div>
+            <ul id="paidBenefitsVasPaid" class="clearfix hor_list memfealist colrw fontlig f15">
+            </ul>
+            <div class="mem_pad22">
+              <div class="pt5 colrw mem-brd10 clearfix">
+                <div class="fl">
+                  <div id="bannerTextVas" class="mt10 f20"></div>
+                  <div class="pt17 f20" id="bannerTimerVas"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="fl disp-none" id="NoConditionsBasedDiv">
+            <div class="f19 color12 pb15">Benefits of your membership; for more benefits choose from value added services</div>
+            <ul id="headerVasNames" class="clearfix hor_list memfealist colrw fontlig f15">
+            </ul>
+            <div class="mem_pad22">
+              <div class="pt5 colrw mem-brd10 clearfix">
+                <div class="fl">
+                  <div id="bannerTextVas" class="f20"></div>
+                  <div class="pt17 f20" id="bannerTimerVas"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--end:left--> 
+          <!--start:right-->
+          <div class="fr fontlig mem-widp5 colrw">
+            <div id="topBlockTitleMsg" class="txtc fontlig f15"></div>
+            <!--start:timer-->
+            <div id="unlimitedTimer" class="mauto wid89p pt16 disp-none">
+              <div class="bg-white bdr-rad1 colr5 fullwid fontmed txtc f22 lh61"> UNLIMITED </div>
+              <div class="colrw f11 txtc fontlig pt10">DAYS</div>
+            </div>
+            <div id="expiredTimer" class="mauto wid89p pt16 disp-none">
+              <div class="bg-white bdr-rad1 colr5 fullwid fontmed txtc f22 lh61"> EXPIRED </div>
+            </div>
+            <div id="normalTimer" class="mauto wid89p pt16 disp-none">
+              <div class="clearfix">
+                <div class="fl">
+                  <div>
+                    <div class="mem-timerbg disp-tbl txtc">
+                      <div id="expMonths" class="disp-cell vmid colr5 f40 fontrobbold"></div>
+                    </div>
+                  </div>
+                  <div class="pt7 allcaps f11 txtc">months</div>
+                </div>
+                <div class="fl">
+                  <div>
+                    <div class="mem-timerbg disp-tbl txtc">
+                      <div id="expDays" class="disp-cell vmid colr5 f40 fontrobbold"></div>
+                    </div>
+                  </div>
+                  <div class="pt7 allcaps f11 txtc">days</div>
+                </div>
+              </div>
+            </div>
+            <!--end:timer-->
+            <div id="topBlockTitleContactsLeftTxt" class="pt40 txtc fontlig f15 colrw"></div>
+            <div id="topBlockTitleContactsLeftNo" class="txtc fontrobbold f40 colrw"></div>
+          </div>
+          <!--end:left--> 
+        </div>
+        <!--end:div--> 
+      </div>
+      <div id="successPageContent" class='disp-none'>
+        <div class="mem_pad29 mem_pad34">
+          <div class="mauto mem-wid18">
+            <div class="clearfix"> 
+              <!--start:left line-->
+              <div class="fl wid29p mem-brd2 hgt18"></div>
+              <!--end:left line--> 
+              <!--start:text-->
+              <div class="fl colrw f28 txtc mem-widp9 txtc fontrobbold">Congratulations</div>
+              <!--end:text--> 
+              <!--start:right line-->
+              <div class="fr wid29p mem-brd2 hgt18"></div>
+              <!--end:right line--> 
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="failurePageContent" class='disp-none'>
+        <div class="mem_pad29 mem_pad34">
+          <div class="mauto mem-wid18">
+            <div class="clearfix"> 
+              <!--start:left line-->
+              <div class="fl wid29p mem-brd2 hgt18"></div>
+              <!--end:left line--> 
+              <!--start:text-->
+              <div class="fl colrw f28 txtc mem-widp9 txtc fontrobbold">Ooops...</div>
+              <!--end:text--> 
+              <!--start:right line-->
+              <div class="fr wid29p mem-brd2 hgt18"></div>
+              <!--end:right line--> 
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="chequeSuccessPageContent" class='disp-none'>
+        <div class="mem_pad29 mem_pad34">
+          <div class="mauto mem-wid18">
+            <div class="clearfix"> 
+              <!--start:left line-->
+              <div class="fl wid15p mem-brd2 hgt18"></div>
+              <!--end:left line--> 
+              <!--start:text-->
+              <div class="fl colrw f28 txtc wid70p txtc fontrobbold">Cheque pick-up request received</div>
+              <!--end:text--> 
+              <!--start:right line-->
+              <div class="fr wid15p mem-brd2 hgt18"></div>
+              <!--end:right line--> 
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="cartPageContent" class='disp-none'>
+        <div class="pt30 mauto mem-wid13 pb30"> 
+          <!--start:list-->
+          <div class="pb10">
+            <ul class="hor_list clearfix fontlig colrw f20">
+              <li class="opa80 wid33p_1 txtc">Membership Plan</li>
+              <li class="opa80 wid33p_1 txtc">Value Added Services</li>
+              <li class="wid33p_1 txtc">Payment</li>
+            </ul>
+          </div>
+          <!--end:list--> 
+          <!--start:progress bar-->
+          <div class="pos-rel mem-wid13 mem-hgt1"> 
+            <!--start:opaque line-->
+            <div class="pos-abs fullwid mem-pos2">
+              <div class="opa30 mem-brd2"></div>
+            </div>
+            <!--end:opaque line--> 
+            <!--start:dark line-->
+            <div class="pos-abs mem-progline mem-pos2">
+              <div class="mem-brd2"></div>
+            </div>
+            <!--end:dark line--> 
+            <!--start:div-->
+            <div class="clearfix">
+              <div class="wid33p_1 txtc fl"> <i class="mem-sprite mem-check1 z2 pos-rel"></i> </div>
+              <div class="wid33p_1 txtc fl"> <i class="mem-sprite mem-check1 z2 pos-rel"></i> </div>
+              <div class="wid33p_1 txtc fl"> <i class="mem-sprite mem-notcheck1 z2 pos-rel"></i> </div>
+            </div>
+            <!--end:div--> 
+          </div>
+          <!--end:progress bar--> 
+          <!--start:list-->
+          <div class="pt12">
+            <ul class="hor_list clearfix fontlig colrw f13">
+              <li class="opa80 wid33p_1 txtc">Done</li>
+              <li class="opa80 wid33p_1 txtc">Done</li>
+              <li class="wid33p_1 txtc">Pending</li>
+            </ul>
+          </div>
+          <!--end:list--> 
+        </div>
+      </div>
+      <script type="text/javascript">
+$(document).ready(function() {
+bindEscapeKey();
+
+if(pageType == 'membershipPage'){
+$("#memebershipPageContent").show();
+}
+
+else if(pageType == 'ConditionsBasedHeader'){
+$("#messageDiv").html(message);
+$("#ConditionsBasedDiv,#vasPagePaidMemberContent").show();
+}
+
+else if (pageType == 'vasPage'){
+$("#vasPageContent").show();
+}
+
+else if (pageType == 'vasPagePaidMember'){
+$("#NoConditionsBasedDiv,#vasPagePaidMemberContent").show();
+}
+
+else if (pageType == 'ConditionsBasedDivVasPaid'){
+$("#ConditionsBasedDivVasPaid,#vasPagePaidMemberContent").show();
+if(paidBenefits){
+var insertText = "";
+paidBenefits.forEach(function(item, index){
+insertText += "<li>"+item+"</li>";
+});
+$("#paidBenefitsVasPaid").html(insertText);
+}
+}
+
+else if (pageType == 'cartPage'){
+$("#cartPageContent").show();
+}
+
+else if (pageType == 'successPage'){
+$("#successPageContent").show();
+}
+
+else if (pageType == 'failurePage'){
+$("#failurePageContent").show();
+}
+
+else if (pageType == 'chequeSuccessPage'){
+$("#chequeSuccessPageContent").show();
+}
+
+$("#Datefld ul li").click(function(e){
+$("#Datefld ul li").each(function(){
+$(this).removeClass('active');
+});
+$(this).addClass('active');
+});
+
+$('#bannerContent').show();
+if(openedCount >= 5){
+$('#bannerMinimize').show();
+if(bannerMsg)
+{
+$('#bannerTextTop,#bannerTextVas,#bannerTextMinimize span').html(bannerMsg);
+}
+else
+{
+$('#bannerTextTop').html("<div class='f24 pb5'>More Value</div><div class='fontreg f14 pb10'>LESS PRICE</div><div class='lh20 f14'>Lowest Price per contact<br>Maximum benefits per month<br>Biggest Savings Per Plan</div>");
+$('#bannerTextMinimize span').html("Thanks for considering upgrading. Choose from our range of exciting plans or request a call back from the Help menu").removeClass('f24').addClass('f18');
+}
+$('.js-expand').animate({
+height: "toggle"
+}, 1000, function() {
+changeclass();
+$('.js-closeview ').css('display', 'block');
+});
+} else {
+if(bannerMsg)
+{
+$('#bannerTextTop').html(bannerMsg);
+}
+else
+$('#bannerTextTop').html("<div class='f24 pb5'>More Value</div><div class='fontreg f14 pb10'>LESS PRICE</div><div class='lh20 f14'>Lowest Price per contact<br>Maximum benefits per month<br>Biggest Savings Per Plan</div>");
+$('#bannerMinimize').hide();
+}
+
+if(checkEmptyOrNull(showCountdown)){
+updateTimeSpan(countdown);
+}
+
+if(topBlockMsg){
+$("#topBlockTitleMsg").html(topBlockMsg);
+}
+
+if(topBlockCLT){
+$("#topBlockTitleContactsLeftTxt").html(topBlockCLT);
+
+}
+
+if(topBlockCLN){
+$("#topBlockTitleContactsLeftNo").html(topBlockCLN);
+}
+
+if(topBlockMonths && topBlockMonths != "Unlimited"){
+if(topBlockMonths == "00" && topBlockDays == "00"){
+var today = new Date();
+var dd = today.getDate();
+var mm = today.getMonth()+1; //January is 0!
+var yyyy = today.getFullYear();
+if(dd<10){
+dd='0'+dd
+}
+if(mm<10){
+mm='0'+mm
+}
+var today = yyyy+'-'+mm+'-'+dd;
+if(dividerExpiry != today)   //for expiry date = today's date case
+{
+$("#expiredTimer").show();
+$("#topBlockTitleContactsLeftTxt").html("Contacts Left To View");
+$("#topBlockTitleContactsLeftNo").html("0");
+}
+else
+{
+$("#normalTimer").show();
+$("#expMonths").html(topBlockMonths);
+$("#expDays").html(topBlockDays);
+}
+} else{
+$("#normalTimer").show();
+$("#expMonths").html(topBlockMonths);
+$("#expDays").html(topBlockDays);
+}
+} else {
+$("#unlimitedTimer").show();
+}
+
+if(preFilledEmail){
+$("#reqEmail input").val(preFilledEmail);
+}
+
+if(preFilledMobNo){
+$("#reqMob input").val(preFilledMobNo);
+}
+
+if(vasNames){
+var insertText = "";
+vasNames.forEach(function(item, index){
+insertText += "<li>"+item+"</li>";
+});
+$("#headerVasNames").html(insertText);
+}
+
+if(paidBenefits){
+var insertText = "";
+paidBenefits.forEach(function(item, index){
+insertText += "<li>"+item+"</li>";
+});
+$("#paidBenefits").html(insertText);
+}
+});
+</script> 
+    </div>
+  </div>
+</header>
+<script type="text/javascript">
+var r_n_u_m = 10;
+if(typeof(bindEscapeKey) != 'function'){
+$(document).keyup(function(e) {
+if (e.keyCode == 27) {
+if ($(".overlay1").length) {
+$(".overlay1").remove();
+$("#topNavigationBar").removeClass('pos-rel').removeClass('z999');
+$("#headerRequestCallback").removeClass('js-reqcallbck').removeClass('opa50');
+$("#headerRequestCallbackLogout").hide();
+$("#headerRequestCallbackLogin").hide();
+}
+}
+});
+}
+if($('#topNavigationBar').hasClass('stickyTopNavBar')){
+var stickyTopNavBar = 1;
+} else {
+var stickyTopNavBar = 0;
+}
+var stickyHeader = $("#topNavigationBar").offset().top;
+$(window).load(function() {
+if(stickyTopNavBar){
+$(window).scroll(function () {
+if ($(this).scrollTop() > stickyHeader) {
+$("#topNavigationBar").addClass("pos_fix").removeClass("pos_rel");
+} else {
+$("#topNavigationBar").addClass("pos_rel").removeClass("pos_fix");
+}
+});
+}
+else{
+$("#topNavigationBar").removeClass("pos_fix");
+}
+});
+
+//This fucntion returns the revision number and is called in commonExpiration_js.js
+function getR_N_U_M(){
+return(r_n_u_m);
+}
+</script> 
+<!--end:header--> 
+
+<!--start:plan-->
+<div class="bg-4">
+  <div class="container mainwid"> 
+    <!--start:div-->
+    <div class="clearfix pt20 pb20"> 
+      <!--start:VAS-->
+      <div class="fl mr20 mem-widp1">
+        <div class="fullwid bg-white">
+          <div class="mem_pad24"> 
+            <!--start:accordian-->
+            <div class="accordion fontmed">
+              <div class="accordion-section">
+                <div class="mem_pad25"> <a class="accordion-section-title disp_ib icons memacc-notsel pl30" href="#accordion-CR" paymentSel="CR">Credit Card</a> </div>
+                <div id="accordion-CR" class="accordion-section-content">
+                  <div class="fullwid clearfix pos-rel"> 
+                    <!--start:left-->
+                    <div class="fullwid">
+                      <div class="color12 fontlig f15 lh20"> Yes, we have a 100% safe & secure payment gateway because your worry is our concern too. </div>
+                      <div>
+                      <div class="acc_list_box memnp1">
+                      <p class="txtc fontlig f12 pb15">Top Credit Cards</p>
+                      
+                        <ul class="hor_list  clearfix">
+                          <li class="mr30">
+                            <div class="mem-boxdim mem-bdr13 disp-tbl">
+                              <div class="disp-cell vmid">
+                                <div class="mem-sprite mem-ame-exp mauto"></div>
+                              </div>
+                            </div>
+                          </li>
+                          <li class="mr30">
+                            <div class="mem-boxdim mem-bdr13 disp-tbl">
+                              <div class="disp-cell vmid">
+                                <div class="mem-sprite mem-mstr-card mauto"></div>
+                              </div>
+                            </div>
+                          </li>
+                          <li class="mr30">
+                            <div class="mem-boxdim mem-bdr13 disp-tbl">
+                              <div class="disp-cell vmid">
+                                <div class="mem-sprite mem-visa mauto"></div>
+                              </div>
+                            </div>
+                          </li>
+                          <li class="mr30">
+                            <div class="mem-boxdim mem-bdr13 disp-tbl">
+                              <div class="disp-cell vmid">
+                                <div class="mem-sprite mem-dinersclub mauto"></div>
+                              </div>
+                            </div>
+                          </li>
+                          <li class="mr30">
+                            <div class="mem-boxdim mem-bdr13 disp-tbl">
+                              <div class="disp-cell vmid">
+                                <div class="mem-sprite mem-united mauto"></div>
+                              </div>
+                            </div>
+                          </li>
+                          <li class="">
+                            <div class="mem-boxdim mem-bdr13 disp-tbl">
+                              <div class="disp-cell vmid">
+                                <div class="mem-sprite mem-rupay mauto"></div>
+                              </div>
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                      <div class="pt40 pos-rel CR_width">
+                        <div class="pos-rel fontlig">
+                          <select name="paymentOption_CR" class="custom">
+                            <option>Select Credit Card</option>
+                            <option paymentMode="CR" cardType="card1" id="CRame_ex" value="0">American Express</option>
+                            <option paymentMode="CR" cardType="card2" id="CRmasterc" value="0">MasterCard</option>
+                            <option paymentMode="CR" cardType="card3" id="CRrv2_visa" value="0">VISA</option>
+                            <option paymentMode="CR" cardType="card4" id="CRrv2_dc" value="0">Diners Club</option>
+                            <option paymentMode="CR" cardType="card5" id="CRrv2_ucb" value="0">UCB</option>
+                            <option paymentMode="CR" cardType="card6" id="CRrv2_rupay" value="0">RuPay</option>
+                          </select>
+                        </div>
+                        <!--end:city-->
+                       
+                      </div>
+                      <div class="hgt55"></div>
+                    </div>
+                    <!--end:left-->
+                    
+                  </div>
+                </div>
+                <!--end accordion-section-content--> 
+              </div>
+              <div class="accordion-section">
+                <div class="mem_pad25"> <a class="accordion-section-title disp_ib icons memacc-notsel pl30" href="#accordion-DR" paymentSel="DR">Debit Card</a> </div>
+                <div id="accordion-DR" class="accordion-section-content">
+                  <div class="fullwid clearfix pos-rel"> 
+                    <!--start:left-->
+                    <div class="fl wid50p">
+                      <div class="color12 fontlig f15 lh20"> Yes, we have a 100% safe & secure payment gateway because your worry is our concern too. </div>
+                      <div class="pt40 pos-rel DR_width">
+                        <div class="pos-rel fontlig">
+                          <select name="paymentOption_DR" class="custom">
+                            <option>Select Debit Card</option>
+                            <option paymentMode="DR" cardType="card1" id="DRame_ex" value="1">American Express</option>
+                            <option paymentMode="DR" cardType="card2" id="DRmasterc" value="1">MasterCard</option>
+                            <option paymentMode="DR" cardType="card3" id="DRrv2_visa" value="1">VISA</option>
+                            <option paymentMode="DR" cardType="card4" id="DRrv2_maestro" value="1">Maestro</option>
+                            <option paymentMode="DR" cardType="card6" id="DRrv2_rupay" value="1">RuPay</option>
+                          </select>
+                        </div>
+                        <!--end:city-->
+                        <div class="clr"></div>
+                      </div>
+                      <div class="hgt55"></div>
+                    </div>
+                    <!--end:left-->
+                    <div class="pos-abs mem-pos8">
+                      <div class="mem_pad26 wid280 acc_list_box">
+                        <ul class="hor_list pl17 clearfix">
+                          <li class="mr10">
+                            <div class="mem-boxdim mem-bdr13 disp-tbl">
+                              <div class="disp-cell vmid">
+                                <div class="mem-sprite mem-ame-exp mauto"></div>
+                              </div>
+                            </div>
+                          </li>
+                          <li class="mr10">
+                            <div class="mem-boxdim mem-bdr13 disp-tbl">
+                              <div class="disp-cell vmid">
+                                <div class="mem-sprite mem-mstr-card mauto"></div>
+                              </div>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="mem-boxdim mem-bdr13 disp-tbl">
+                              <div class="disp-cell vmid">
+                                <div class="mem-sprite mem-visa mauto"></div>
+                              </div>
+                            </div>
+                          </li>
+                          <li class="mt20">
+                            <div class="mem-boxdim mem-bdr13 disp-tbl">
+                              <div class="disp-cell vmid">
+                                <div class="mem-sprite mem-rupay mauto"></div>
+                              </div>
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!--end accordion-section-content--> 
+              </div>
+              <div class="accordion-section">
+                <div class="mem_pad25"> <a class="accordion-section-title disp_ib icons memacc-notsel pl30" href="#accordion-NB" paymentSel="NB">Net Banking</a> </div>
+                <div id="accordion-NB" class="accordion-section-content">
+                  <div class="fullwid clearfix pos-rel"> 
+                    <!--start:left-->
+                    <div class="fl wid50p">
+                      <div class="color12 fontlig f15 lh20"> Yes, we have a 100% safe & secure payment gateway because your worry is our concern too. </div>
+                      <div class="pt40 pos-rel NB_width">
+                        <div class="pos-rel fontlig">
+                          <select name="paymentOption_NB" class="custom">
+                            <option>Select Net Banking</option>
+                            <option paymentMode="NB" cardType="SBI_N" id="NB" value="2">State Bank of India</option>
+                            <option paymentMode="NB" cardType="ICPRF_N" id="NB" value="2">ICICI Bank</option>
+                            <option paymentMode="NB" cardType="HDEB_N" id="NB" value="2">HDFC Bank</option>
+                            <option paymentMode="NB" cardType="UTI_N" id="NB" value="2">Axis Bank</option>
+                            <option paymentMode="NB" cardType="CBIBAN_N" id="NB" value="2">Citibank Bank</option>
+                            <option paymentMode="NB" cardType="NKMB_N" id="NB" value="2">Kotak Mahindra Bank</option>
+                            <option paymentMode="NB" cardType="AND_N" id="NB" value="2">Andhra Bank</option>
+                            <option paymentMode="NB" cardType="BOB_N" id="NB" value="2">Bank of Baroda</option>
+                            <option paymentMode="NB" cardType="BOI_N" id="NB" value="2">Bank of India</option>
+                            <option paymentMode="NB" cardType="CAN_N" id="NB" value="2">Canara Bank</option>
+                            <option paymentMode="NB" cardType="COP_N" id="NB" value="2">Corporation Bank</option>
+                            <option paymentMode="NB" cardType="DCB_N" id="NB" value="2">DCB Bank</option>
+                            <option paymentMode="NB" cardType="FDEB_N" id="NB" value="2">Federal Bank</option>
+                            <option paymentMode="NB" cardType="IDBI_N" id="NB" value="2">IDBI Bank</option>
+                            <option paymentMode="NB" cardType="IOB_N" id="NB" value="2">Indian Overseas Bank</option>
+                            <option paymentMode="NB" cardType="NIIB_N" id="NB" value="2">IndusInd Bank</option>
+                            <option paymentMode="NB" cardType="ING_N" id="NB" value="2">ING Vysya Bank</option>
+                            <option paymentMode="NB" cardType="JKB_N" id="NB" value="2">Jammu &amp; Kashmir Bank</option>
+                            <option paymentMode="NB" cardType="KVB_N" id="NB" value="2">Karur Vysya Bank</option>
+                            <option paymentMode="NB" cardType="LVB_N" id="NB" value="2">Lakshmi Vilas Bank</option>
+                            <option paymentMode="NB" cardType="OBPRF_N" id="NB" value="2">Oriental Bank of Commerce</option>
+                            <option paymentMode="NB" cardType="NPNB_N" id="NB" value="2">Punjab National Bank</option>
+                            <option paymentMode="NB" cardType="SIB_N" id="NB" value="2">South Indian Bank</option>
+                            <option paymentMode="NB" cardType="SCB_N" id="NB" value="2">Standard Chartered Bank</option>
+                            <option paymentMode="NB" cardType="SBJ_N" id="NB" value="2">State Bank of Bikaner and Jaipur</option>
+                            <option paymentMode="NB" cardType="SBH_N" id="NB" value="2">State Bank of Hyderabad</option>
+                            <option paymentMode="NB" cardType="UNI_N" id="NB" value="2">Union Bank of India</option>
+                            <option paymentMode="NB" cardType="SBP_N" id="NB" value="2">State Bank of Patiala</option>
+                            <option paymentMode="NB" cardType="YES_N" id="NB" value="2">YES Bank</option>
+                            <option paymentMode="NB" cardType="OTHER" id="NB" value="2">Other Banks</option>
+                          </select>
+                        </div>
+                        <!--end:city-->
+                        <div class="clr"></div>
+                      </div>
+                      <div class="hgt55"></div>
+                    </div>
+                    <!--end:left-->
+                    <div class="pos-abs mem-pos8">
+                      <div class="mem_pad26 wid280 acc_list_box">
+                        <ul class="hor_list pl17 clearfix">
+                          <li class="mr10">
+                            <div class="mem-boxdim mem-bdr13 disp-tbl">
+                              <div class="disp-cell vmid">
+                                <div class="mem-sprite icicilogo mauto"></div>
+                              </div>
+                            </div>
+                          </li>
+                          <li class="mr10">
+                            <div class="mem-boxdim mem-bdr13 disp-tbl">
+                              <div class="disp-cell vmid">
+                                <div class="mem-sprite hdfclogo mauto"></div>
+                              </div>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="mem-boxdim mem-bdr13 disp-tbl">
+                              <div class="disp-cell vmid">
+                                <div class="mem-sprite axislogo mauto"></div>
+                              </div>
+                            </div>
+                          </li>
+                          <li class="mr10 mt20">
+                            <div class="mem-boxdim mem-bdr13 disp-tbl">
+                              <div class="disp-cell vmid">
+                                <div class="mem-sprite citilogo mauto"></div>
+                              </div>
+                            </div>
+                          </li>
+                          <li class="mr10 mt20">
+                            <div class="mem-boxdim mem-bdr13 disp-tbl">
+                              <div class="disp-cell vmid">
+                                <div class="mem-sprite kotaklogo mauto"></div>
+                              </div>
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!--end accordion-section-content--> 
+              </div>
+              <div class="accordion-section">
+                <div class="mem_pad25"> <a class="accordion-section-title disp_ib icons memacc-notsel pl30" href="#accordion-4" id="cashPickUp">Cash/Cheque pick-up <span class="color12">(No charges)</span></a> </div>
+                <div id="accordion-4" class="accordion-section-content">
+                  <div class="fullwid clearfix pos-rel"> 
+                    <!--start:left-->
+                    <div class="fl wid50p">
+                      <div class="color12 fontlig f15 lh20"> Membership will get activated once Jeevansathi executive collects <span class="fontreg"><span>&#8377;</span><span id="cashPickUpPrice">12,800</span></span> from you</div>
+                      <!--start:form-->
+                      <div class="pt40 formmem-one fontlig" id="chqpickform"> 
+                        <!--start:city-->
+                        <label>City</label>
+                        <div class="pos-rel fontlig pb20 cashDrop_width">
+                          <select name="cashCity" class="custom" id="cashCity">
+                            <option>Select City</option>
+                            <option value="Ahmedabad"  id="Ahmedabad">Ahmedabad</option>
+                            <option value="Anand"  id="Anand">Anand</option>
+                            <option value="Ankleshwar"  id="Ankleshwar">Ankleshwar</option>
+                            <option value="Baroda"  id="Baroda">Baroda</option>
+                            <option value="Bhopal"  id="Bhopal">Bhopal</option>
+                            <option value="Bilaspur"  id="Bilaspur">Bilaspur</option>
+                            <option value="Chhindwara"  id="Chhindwara">Chhindwara</option>
+                            <option value="Delhi"  selected  id="Delhi">Delhi</option>
+                            <option value="Faridabad"  id="Faridabad">Faridabad</option>
+                            <option value="Gandhinagar"  id="Gandhinagar">Gandhinagar</option>
+                            <option value="Ghaziabad"  id="Ghaziabad">Ghaziabad</option>
+                            <option value="Gurgaon"  id="Gurgaon">Gurgaon</option>
+                            <option value="Gwalior"  id="Gwalior">Gwalior</option>
+                            <option value="Indore"  id="Indore">Indore</option>
+                            <option value="Jabalpur"  id="Jabalpur">Jabalpur</option>
+                            <option value="Junagadh"  id="Junagadh">Junagadh</option>
+                            <option value="Kanpur"  id="Kanpur">Kanpur</option>
+                            <option value="Lucknow"  id="Lucknow">Lucknow</option>
+                            <option value="Mumbai"  id="Mumbai">Mumbai</option>
+                            <option value="Nagpur"  id="Nagpur">Nagpur</option>
+                            <option value="Noida"  id="Noida">Noida</option>
+                            <option value="Pune"  id="Pune">Pune</option>
+                            <option value="Rajkot"  id="Rajkot">Rajkot</option>
+                            <option value="Surat"  id="Surat">Surat</option>
+                            <option value="Thane"  id="Thane">Thane</option>
+                            <option value="Ujjain"  id="Ujjain">Ujjain</option>
+                            <option value="Vadodara"  id="Vadodara">Vadodara</option>
+                          </select>
+                        </div>
+                        <div id="cityError" class="disp-none f13 pt17" style="color:#d9475c !important;">Please select a City</div>
+                        <!--end:city--> 
+                        <!--start:Address-->
+                        <div class="pos-rel pt30">
+                          <label id="labelAddress">Address</label>
+                          <div class="mem-bdr12 f17 pb5 pt10">
+                            <input type="text" class="fullwid brdr-0 f17 color11 fontlig" value="" id="chequePickUpAddress"/>
+                          </div>
+                          <div id="addressError" class="disp-none f13 pt5" style="color:#d9475c !important;">Please enter a valid Address</div>
+                        </div>
+                        <!--end:Address--> 
+                        <!--start:name-->
+                        <div class="pos-rel pt20">
+                          <label id="labelName">Name</label>
+                          <div class="mem-bdr12 f17 pb5 pt10">
+                            <input type="text" class="fullwid brdr-0 f17 color11 fontlig"   value="ZVVY1151"  id="chequePickUpName"/>
+                          </div>
+                          <div id="nameError" class="disp-none f13 pt5" style="color:#d9475c !important;">Please enter a valid Name</div>
+                        </div>
+                        <!--end:name--> 
+                        <!--start:Mobile number-->
+                        <div class="pos-rel pt20">
+                          <label id="labelMobile">Mobile Number</label>
+                          <div class="mem-bdr12 f17 pb5 pt10">
+                            <input type="text" class="fullwid brdr-0 f17 color11 color11 fontlig" value="9910244159" id="chequePickUpMobile"/>
+                          </div>
+                          <div id="mobileError" class="disp-none f13 pt5" style="color:#d9475c !important;">Please enter a valid Mobile Number</div>
+                        </div>
+                        <!--end:Mobile number--> 
+                        <!--start:Phone number-->
+                        <div class="pos-rel pt20">
+                          <label id="labelPhone">Phone Number</label>
+                          <div class="mem-bdr12 f17 pb5 pt10">
+                            <input type="text" class="fullwid brdr-0 f17 color11 fontlig" value="" id="chequePickUpPhone"/>
+                          </div>
+                          <div id="phoneError" class="disp-none f13 pt5" style="color:#d9475c !important;">Please enter a valid Phone Number</div>
+                        </div>
+                        <!--end:Phone number--> 
+                        <!--start:Preferred Date-->
+                        <div class="fontlig pt20">
+                          <label>Preferred Date</label>
+                          <div class="f17 pt10 clearfix color11 pos-rel">
+                            <div class='prefDate_width'>
+                              <div class="wid29p fl mr20 pb5 cursp pos-rel fontlig pb20">
+                                <select name="preferredDateDay" class="custom" id="preferredDateDay">
+                                </select>
+                              </div>
+                            </div>
+                            <div class="wid29p fl mr20 pb5 cursp pos-rel fontlig pb20">
+                              <select name="preferredDateMonth" class="custom" id="preferredDateMonth">
+                              </select>
+                            </div>
+                            <div class="wid29p fl pb5 cursp pos-rel fontlig pb20">
+                              <select name="preferredDateYear" class="custom" id="preferredDateYear">
+                              </select>
+                            </div>
+                            <div class="pos-abs mem-pos9">
+                              <div class="txtc color12 mem_pad26 f13">Pick up request takes 48 hours to execute</div>
+                            </div>
+                          </div>
+                        </div>
+                        <!--start:comments-->
+                        <div class="pos-rel pt20">
+                          <label>Comments</label>
+                          <div class="mem-bdr12 f17 pb5 pt10">
+                            <input type="text" class="fullwid brdr-0 f17 color11 fontlig" value="" id="chequePickUpComments"/>
+                          </div>
+                        </div>
+                        <!--end:comments--> 
+                      </div>
+                      <!--end:form--> 
+                    </div>
+                    <!--end:left--> 
+                  </div>
+                  <div class="hgt55"></div>
+                </div>
+                <!--end .accordion-section-content--> 
+              </div>
+              <!--end .accordion-section-->
+              <div class="accordion-section">
+                <div class="mem_pad25"> <a id="payAtBranches" class="accordion-section-title disp_ib icons memacc-notsel pl30" href="#accordion-5">Pay at Jeevansathi Branches</a> </div>
+                <div id="accordion-5" class="accordion-section-content">
+                  <div class="fullwid clearfix pos-rel"> 
+                    <!--start:left-->
+                    <div class="fl wid50p">
+                      <div class="color12 fontlig f15 lh20"> Your subscription will get activated within 2 working days from receipt of amount <span class="fontreg"><span>&#8377;</span><span id="payAtBranchesPrice">12,800</span></span></div>
+                      <!--start:form-->
+                      <div class="pb14 pt40 formmem-one fontlig"> 
+                        <!--start:city-->
+                        <label>City</label>
+                        <div class="pos-rel fontlig branch_width">
+                          <select name="City" class="custom" id="city">
+                            <option>Select City</option>
+                            <option value="Bangalore"  >Bangalore</option>
+                            <option value="Yamuna Nagar"  >Yamuna Nagar</option>
+                            <option value="Hyderabad"  >Hyderabad</option>
+                            <option value="Jaipur"  >Jaipur</option>
+                            <option value="Ahmedabad"  >Ahmedabad</option>
+                            <option value="Bhopal"  >Bhopal</option>
+                            <option value="Indore"  >Indore</option>
+                            <option value="Mumbai"  >Mumbai</option>
+                            <option value="Pune"  >Pune</option>
+                            <option value="Bokaro"  >Bokaro</option>
+                            <option value="Patna"  >Patna</option>
+                            <option value="Noida"  >Noida</option>
+                            <option value="Delhi"  selected  >Delhi</option>
+                            <option value="Kolkata"  >Kolkata</option>
+                            <option value="Jamshedpur"  >Jamshedpur</option>
+                            <option value="Lucknow"  >Lucknow</option>
+                            <option value="Kanpur"  >Kanpur</option>
+                            <option value="Allahabad"  >Allahabad</option>
+                            <option value="Varanasi"  >Varanasi</option>
+                            <option value="Jabalpur"  >Jabalpur</option>
+                            <option value="Jalandhar"  >Jalandhar</option>
+                            <option value="Ajmer"  >Ajmer</option>
+                            <option value="Ujjain"  >Ujjain</option>
+                            <option value="Ghaziabad"  >Ghaziabad</option>
+                            <option value="Kota"  >Kota</option>
+                            <option value="Bhilai"  >Bhilai</option>
+                          </select>
+                        </div>
+                        <!--end:city-->
+                        <div class="clr"></div>
+                        <!--start:address-->
+                        <div class="pt35 fontlig f13 colr2 lh20"> 
+                          <!--start:add1-->
+                          <div class="branch  disp-none " branch_id="Bangalore_branch">
+                            <p class="fontreg">Bangalore</p>
+                            <p>CONTACT: Priyanka</p>
+                            <p>ADDRESS: N-901/902, 9th Floor, North Block, front wing, Manipal Centre,  Dickenson Road,(MG Road) Bangalore- 560042 Email bharat.vaswani@jeevansathi.com</p>
+                            <p>PHONE: 1800-419-6299 </p>
+                            <p>MOBILE: 09971176433</p>
+                            <br>
+                            <br>
+                          </div>
+                          <div class="branch  disp-none " branch_id="Yamuna Nagar_branch">
+                            <p class="fontreg">Yamuna Nagar</p>
+                            <p>CONTACT: Vandana Saini</p>
+                            <p>ADDRESS: Sr Achievers Academy Building Near Jagadhri Bus Stand  Ambala Road  Jagadhri-135003 Yamunanagar</p>
+                            <p>PHONE: 09971188602 </p>
+                            <p>MOBILE: 09971188602</p>
+                            <br>
+                            <br>
+                          </div>
+                          <div class="branch  disp-none " branch_id="Hyderabad_branch">
+                            <p class="fontreg">Begumpet</p>
+                            <p>CONTACT: Vandana</p>
+                            <p>ADDRESS: </p>
+                            <p>PHONE: 1800-419-6299 </p>
+                            <p>MOBILE: 0120-4393500</p>
+                            <br>
+                            <br>
+                          </div>
+                          <div class="branch  disp-none " branch_id="Jaipur_branch">
+                            <p class="fontreg">Jaipur</p>
+                            <p>CONTACT: Vandana Patel</p>
+                            <p>ADDRESS: Info edge India Limited Jeevansathi.com 605, Crystal Palm 22 Godown Circle Jaipur - 302001</p>
+                            <p>PHONE: 18004196299 </p>
+                            <p>MOBILE: 0120-4393500</p>
+                            <br>
+                            <br>
+                          </div>
+                          <div class="branch  disp-none " branch_id="Ahmedabad_branch">
+                            <p class="fontreg">Ahmedabad</p>
+                            <p>CONTACT: Rashmi.S.</p>
+                            <p>ADDRESS: Info Edge (India) Ltd. 203 &amp; 204, Shitiratna, Panchvati Circle, C. G. Road, Ahmedabad - 380006.</p>
+                            <p>PHONE: 8511170744, 18004196299(T/F) </p>
+                            <p>MOBILE: 08511170744</p>
+                            <br>
+                            <br>
+                          </div>
+                          <div class="branch  disp-none " branch_id="Bhopal_branch">
+                            <p class="fontreg">Bhopal</p>
+                            <p>CONTACT: Vandana</p>
+                            <p>ADDRESS: </p>
+                            <p>PHONE: 09752091287 </p>
+                            <p>MOBILE: 1-800-419-6299</p>
+                            <br>
+                            <br>
+                          </div>
+                          <div class="branch  disp-none " branch_id="Indore_branch">
+                            <p class="fontreg">Indore</p>
+                            <p>CONTACT: Neha Gupta</p>
+                            <p>ADDRESS: Jeevansathi.com Office no-518, 5th Floor,Shekhar Central, Palasia Square, Next to Petrol Pump, A.B Road, Indore-452001.</p>
+                            <p>PHONE: 1800-419-6299 </p>
+                            <p>MOBILE: 07738399771</p>
+                            <br>
+                            <br>
+                          </div>
+                          <div class="branch  disp-none " branch_id="Mumbai_branch">
+                            <p class="fontreg">Andheri</p>
+                            <p>CONTACT: Nisha Singh</p>
+                            <p>ADDRESS: 216/222, 2nd Floor, Chintamani Plaza, Near Cine Magic, Andheri Kurla Road, Andheri East, Mumbai, Maharashtra - 400099</p>
+                            <p>PHONE: 7738399760,  7738399765 , </p>
+                            <p>MOBILE: 7738399762</p>
+                            <br>
+                            <br>
+                          </div>
+                          <div class="branch  disp-none " branch_id="Mumbai_branch">
+                            <p class="fontreg">Borivili</p>
+                            <p>CONTACT: Sheetal Shah</p>
+                            <p>ADDRESS: Jeevansathi.com, Office No 101, Kesar Kripa,  Opp Raj Mahal Hotel, Chandravarkar Road, Above Saraswat Bank, Near to Borivili Station, Borivili West, Mumbai ? 400 092</p>
+                            <p>PHONE: 7738399755 </p>
+                            <p>MOBILE: 9920911103</p>
+                            <br>
+                            <br>
+                          </div>
+                          <div class="branch  disp-none " branch_id="Mumbai_branch">
+                            <p class="fontreg">Thane</p>
+                            <p>CONTACT: Sulochana</p>
+                            <p>ADDRESS: Adress: Info Edge (I)Ltd 2nd Floor,Shankeshwar Arcade, Above Ratnakar Bank,Off Ram Maruti Road, Naupada,Thane(W)</p>
+                            <p>PHONE: 7738399753 </p>
+                            <p>MOBILE: 07738399753</p>
+                            <br>
+                            <br>
+                          </div>
+                          <div class="branch  disp-none " branch_id="Pune_branch">
+                            <p class="fontreg">Pune</p>
+                            <p>CONTACT: Priyanka</p>
+                            <p>ADDRESS: 2nd Floor, Unit No-201, GeraSterling next to starbucks cafe, KoregaonPark, North Main, Road, Diagonally opp to German bakery, Pune, Maharashtra - 411001 Email bharat.vaswani@jeevansathi.com</p>
+                            <p>PHONE: 1800-419-6299 </p>
+                            <p>MOBILE: 07738399764</p>
+                            <br>
+                            <br>
+                          </div>
+                          <div class="branch  disp-none " branch_id="Bokaro_branch">
+                            <p class="fontreg">Bokaro</p>
+                            <p>CONTACT: Guidya</p>
+                            <p>ADDRESS: PLOT NO: GF-2,GROUND FLOOR, CITY CENTRE SECTOR 4, BEHIND SAI HOSPITAL, BOKARO STEEL CITY, JHARKHAND,827004</p>
+                            <p>PHONE: 9031035670 </p>
+                            <p>MOBILE: 9031035670</p>
+                            <br>
+                            <br>
+                          </div>
+                          <div class="branch  disp-none " branch_id="Patna_branch">
+                            <p class="fontreg">Patna</p>
+                            <p>CONTACT: Kishor</p>
+                            <p>ADDRESS: 2ND FLOOR, OM BHAWAN BESIDE JAMUNA APARTMENT OPPOSITE  &#039;METRO&#039; BORING ROAD PATNA</p>
+                            <p>PHONE: 09771490294 </p>
+                            <p>MOBILE: 09771490294</p>
+                            <br>
+                            <br>
+                          </div>
+                          <div class="branch  disp-none " branch_id="Noida_branch">
+                            <p class="fontreg">Head Office</p>
+                            <p>CONTACT: Vandana Patel</p>
+                            <p>ADDRESS: B-8, Sector-132, Noida-201301</p>
+                            <p>PHONE: 18004196299(Toll Free) </p>
+                            <p>MOBILE: 0120-4393500</p>
+                            <br>
+                            <br>
+                          </div>
+                          <div class="branch " branch_id="Delhi_branch">
+                            <p class="fontreg">Connaught Place</p>
+                            <p>CONTACT: Vandana Patel</p>
+                            <p>ADDRESS: GF-4, Indraprakash Building, 21, Barakhamba Road, Near Metro Station, New Delhi -110001</p>
+                            <p>PHONE: 9910482309 </p>
+                            <p>MOBILE: 1800-419-6299(toll free)</p>
+                            <br>
+                            <br>
+                          </div>
+                          <div class="branch " branch_id="Delhi_branch">
+                            <p class="fontreg">Pitampura</p>
+                            <p>CONTACT: Parul Singh</p>
+                            <p>ADDRESS: 711, 7th Floor, ITL Twin Towers, B-09, Netaji Subhash Place, Opp.Wazirpur, District Centre, Pitampura, Delhi</p>
+                            <p>PHONE: 9910007594 </p>
+                            <p>MOBILE: 9910007594</p>
+                            <br>
+                            <br>
+                          </div>
+                          <div class="branch " branch_id="Delhi_branch">
+                            <p class="fontreg">Nehru Place</p>
+                            <p>CONTACT: Jayaprabha</p>
+                            <p>ADDRESS: GF-12A, 94, Meghdoot Buliding, Nehru Place, New Delhi - 1100019</p>
+                            <p>PHONE: 9971175142 </p>
+                            <p>MOBILE: 9971175142</p>
+                            <br>
+                            <br>
+                          </div>
+                          <div class="branch " branch_id="Delhi_branch">
+                            <p class="fontreg">Malviya Nagar</p>
+                            <p>CONTACT: Anuradha Ghosh/Jyoti Bajaj</p>
+                            <p>ADDRESS: D-88 Lower Basement, Near Costa Coffee, Malviya Nager, New Delhi - 110017</p>
+                            <p>PHONE: 9910006538 </p>
+                            <p>MOBILE: 9910006538
+                              9910482309</p>
+                            <br>
+                            <br>
+                          </div>
+                          <div class="branch " branch_id="Delhi_branch">
+                            <p class="fontreg">Kamla Nagar</p>
+                            <p>CONTACT: Kusum Lata</p>
+                            <p>ADDRESS: 36A, Ground Floor, Near Shakti Nagar Chowk, Kamla Nagar, New Delhi.</p>
+                            <p>PHONE: 9910007538 </p>
+                            <p>MOBILE: 9910007538</p>
+                            <br>
+                            <br>
+                          </div>
+                          <div class="branch " branch_id="Delhi_branch">
+                            <p class="fontreg">Rajouri Garden</p>
+                            <p>CONTACT: Vijay Kumari/Neha Sahni</p>
+                            <p>ADDRESS: J-198, First Floor, Main Najafgarj Road, Metro pillar No.419, Opp. Kukreja Hospital, Rajouri Garden, New Delhi - 110027</p>
+                            <p>PHONE: 9971177324 </p>
+                            <p>MOBILE: 9971177324 
+                              9910006735</p>
+                            <br>
+                            <br>
+                          </div>
+                          <div class="branch " branch_id="Delhi_branch">
+                            <p class="fontreg">Laxmi Nagar</p>
+                            <p>CONTACT: Jyoti Kumari</p>
+                            <p>ADDRESS: D-100, Street No.5, Ground floor, Laxmi Nagar, Near Metro Station, New Delhi-110092</p>
+                            <p>PHONE: 9910006935 </p>
+                            <p>MOBILE: 9910006935</p>
+                            <br>
+                            <br>
+                          </div>
+                          <div class="branch  disp-none " branch_id="Kolkata_branch">
+                            <p class="fontreg">AJC Bose Road</p>
+                            <p>CONTACT: Sriparna Bose</p>
+                            <p>ADDRESS: Info Edge (India) Ltd. 224 A J C Bose Road, KRISHNA BUILDING- 8th Floor, Suite nos-801-803 Opposite-Lamartine For Girls (Near Beckbagan Crossing), Kolkata - 700017</p>
+                            <p>PHONE: 1800-419-6299 </p>
+                            <p>MOBILE: 09771490295</p>
+                            <br>
+                            <br>
+                          </div>
+                          <div class="branch  disp-none " branch_id="Kolkata_branch">
+                            <p class="fontreg">Garihat Road</p>
+                            <p>CONTACT: Kumarika</p>
+                            <p>ADDRESS: 38 Gariahat Rd, Identity Building, 1st floor Room nos-5, Near Selimpur Bus Stand, Kolkata-700031</p>
+                            <p>PHONE: 1800-419-6299 </p>
+                            <p>MOBILE: 09771490295</p>
+                            <br>
+                            <br>
+                          </div>
+                          <div class="branch  disp-none " branch_id="Jamshedpur_branch">
+                            <p class="fontreg">Jamshedpur</p>
+                            <p>CONTACT: Khusboo Singh</p>
+                            <p>ADDRESS: Bharat Business Centre,Room-6,2nd Flr,Ram Mandir Area,Bistupur,Near Punjab Naiotnal Bank. Jamshedpur</p>
+                            <p>PHONE: 1800-419-6299 </p>
+                            <p>MOBILE: 09771490295</p>
+                            <br>
+                            <br>
+                          </div>
+                          <div class="branch  disp-none " branch_id="Lucknow_branch">
+                            <p class="fontreg">Lucknow</p>
+                            <p>CONTACT: Shubhi Gupta</p>
+                            <p>ADDRESS: 31/107, Ground Floor,  Sahu Building, Hazratganj,opp.universal book sellers,  Lucknow - 226001</p>
+                            <p>PHONE: 07388805533 </p>
+                            <p>MOBILE: 07388805533</p>
+                            <br>
+                            <br>
+                          </div>
+                          <div class="branch  disp-none " branch_id="Kanpur_branch">
+                            <p class="fontreg">Kanpur</p>
+                            <p>CONTACT: Atif Khan</p>
+                            <p>ADDRESS: 14/121-B, Main Road, The Mall,  Parade, Opposite Raymonds Showroom,  Kanpur</p>
+                            <p>PHONE: 08853220044 </p>
+                            <p>MOBILE: 1800-419-6299
+                              0120-4393500</p>
+                            <br>
+                            <br>
+                          </div>
+                          <div class="branch  disp-none " branch_id="Allahabad_branch">
+                            <p class="fontreg">Allahabad</p>
+                            <p>CONTACT: Deep Pandey</p>
+                            <p>ADDRESS: Malik Nivas, 60-M /44 5-A Sangam Bihar Colony, Nawab Yusuf Road, Allahabad</p>
+                            <p>PHONE: 07388808833 </p>
+                            <p>MOBILE: 07388808833</p>
+                            <br>
+                            <br>
+                          </div>
+                          <div class="branch  disp-none " branch_id="Varanasi_branch">
+                            <p class="fontreg">Varanasi</p>
+                            <p>CONTACT: Mr. Deepak Mali</p>
+                            <p>ADDRESS: City Air Linker, Opp. Rita Ice-cream, Shree Ram Machinery Market,  Maldahiya, Varanasi - 221002</p>
+                            <p>PHONE: 7388806633 </p>
+                            <p>MOBILE: 7388806633</p>
+                            <br>
+                            <br>
+                          </div>
+                          <div class="branch  disp-none " branch_id="Jabalpur_branch">
+                            <p class="fontreg">Jabalpur</p>
+                            <p>CONTACT: Rishin Paul</p>
+                            <p>ADDRESS: KATANGA DUPLEX NO.2, BHUMIKA STATE, NARBADA ROAD,JABALPUR.</p>
+                            <p>PHONE: 9752091283 </p>
+                            <p>MOBILE: 7415124333</p>
+                            <br>
+                            <br>
+                          </div>
+                          <div class="branch  disp-none " branch_id="Jalandhar_branch">
+                            <p class="fontreg">Jalandhar</p>
+                            <p>CONTACT: Heena</p>
+                            <p>ADDRESS: 8,Link Colony,Opposite Nari Niketan School,Nakodar Road,Jalandhar</p>
+                            <p>PHONE: 9971009572 </p>
+                            <p>MOBILE: 08699908185</p>
+                            <br>
+                            <br>
+                          </div>
+                          <div class="branch  disp-none " branch_id="Ajmer_branch">
+                            <p class="fontreg">Ajmer</p>
+                            <p>CONTACT: Kamal Kumar</p>
+                            <p>ADDRESS: Jeevansathi.com Deepa tent house Nasirabad Road Nagra-305001</p>
+                            <p>PHONE: 7891087786 </p>
+                            <p>MOBILE: 7891087786</p>
+                            <br>
+                            <br>
+                          </div>
+                          <div class="branch  disp-none " branch_id="Ujjain_branch">
+                            <p class="fontreg">Ujjain</p>
+                            <p>CONTACT: Mr.Sumit</p>
+                            <p>ADDRESS: A119, 1st floor, Dindayal shopping complex indore road near model school ujjain_M.P</p>
+                            <p>PHONE: 9074766203 </p>
+                            <p>MOBILE: 08269120675</p>
+                            <br>
+                            <br>
+                          </div>
+                          <div class="branch  disp-none " branch_id="Ghaziabad_branch">
+                            <p class="fontreg">Ghaziabad</p>
+                            <p>CONTACT: Sourabh Singh</p>
+                            <p>ADDRESS: Shop No. 22, Lower Ground Floor, Kumar Excellency Plaza, Near   Sunrise Mall, Sector 11, Vasundhara</p>
+                            <p>PHONE: 9971188452 </p>
+                            <p>MOBILE: 9971188452</p>
+                            <br>
+                            <br>
+                          </div>
+                          <div class="branch  disp-none " branch_id="Kota_branch">
+                            <p class="fontreg">Kota</p>
+                            <p>CONTACT: Gaurav Mathur</p>
+                            <p>ADDRESS: Samarpan Royal, 277-A, Talwandi, Near Sheela Chowdhary Nursing Home, Kota - 324005</p>
+                            <p>PHONE: 09871682929 </p>
+                            <p>MOBILE: 09871682929</p>
+                            <br>
+                            <br>
+                          </div>
+                          <div class="branch  disp-none " branch_id="Bhilai_branch">
+                            <p class="fontreg">Bhilai</p>
+                            <p>CONTACT: Namita Sehgal</p>
+                            <p>ADDRESS: 38A, Sunder Nagar Near Vaishali Nagar police chowki Bhilai  Dist Durg (Chattisgarh)</p>
+                            <p>PHONE: 8253022977 </p>
+                            <p>MOBILE: 9770613814</p>
+                            <br>
+                            <br>
+                          </div>
+                          <!--end:add1--> 
+                        </div>
+                        <!--end:address-->
+                        <div class="pos-abs mem-pos8">
+                          <div class="fontreg f15 colr2">Sample Cheque</div>
+                          <div class="pos-rel cheque">
+                            <div class="pos-abs fullwid fontreg f13 colr2" style="top:0; left:0">
+                              <div class="chqp1"><span id="chequeDate"></span></div>
+                              <div class="chqp2">Jeevansathi Internet Services </div>
+                              <div class="chq3 lh22"><span id="amountInWords"></span></div>
+                            </div>
+                            <div class="pos-abs fontreg f13 colr2 chqp4">
+                              <div> <span>&#8377;</span><span id="sampleChequePrice">12,800</span> </div>
+                            </div>
+                          </div>
+                          <div id='instructionsText' class="pt20 disp-none">
+                            <div class="fontreg f15 colr5">Important Instructions</div>
+                            <ul class="f13 mem-colr1 lh20 pt10 pl10 samplechq">
+                              <li>Do not forget to sign your cheque</li>
+                              <li>Mention ZVVY1151 on the reverse of Cheque/DD</li>
+                            </ul>
+                          </div>
+                        </div>
+                        <div class="hgt55"></div>
+                      </div>
+                      <!--end:form--> 
+                    </div>
+                    <!--end:left--> 
+                  </div>
+                </div>
+                <!--end .accordion-section-content--> 
+              </div>
+              <!--end .accordion-section--> 
+            </div>
+            <!--end:accordian--> 
+          </div>
+        </div>
+      </div>
+      <!--end:VAS--> 
+      <!--start:cart-->
+      <div class="fr mem-wid6 mem-widp2 mem_bg1">
+        <div class="mem_pad19 colrw">
+          <div class="fontthin f20 opa60">You are getting</div>
+          <!--start:sel VAS-->
+          <div class="pt25">
+            <div class="lh23 f13 fontreg">
+              <div class="disp-tbl fullwid">
+                <div class="disp-cell wid80p pos-rel">eRishta</div>
+                <div class="disp-cell txtr wid20p cart_prices">11,400</div>
+              </div>
+              <div class="disp-tbl fullwid">
+                <div class="disp-cell wid80p pos-rel">Response Booster</div>
+                <div class="disp-cell txtr wid20p cart_prices">2,800</div>
+              </div>
+              <div class="disp-tbl fullwid">
+                <div class="disp-cell wid80p pos-rel">Astro Compatibility</div>
+                <div class="disp-cell txtr wid20p cart_prices">1,800</div>
+              </div>
+            </div>
+          </div>
+          <!--end:sel VAS--> 
+        </div>
+        <!--start:seprator-->
+        <div class="pos-rel fullwid mem-hgt4">
+          <div class="pos-ab mem-pos3"> <i class="mem-sprite mem-leftcirlce"></i> </div>
+          <div class="pos-abs mem-pos1"> <i class="mem-sprite mem-rightcirlce"></i> </div>
+          <div class="pos-abs fullwid mem-pos4 mem-brd8"></div>
+        </div>
+        <!--end:seprator--> 
+        <!--start:total-->
+        <div class="mem_pad20 colrw fontlig">
+          <div class="txtc f15 pb10" id="savingsContainer"> <span id="savingsText">Total Savings</span> <span class="fontreg"><span class="currency" id="currecncySymbol">&#8377;&nbsp;</span><span id="cartDiscount">3,200</span></span></div>
+          <div class="pt40 txtc">
+            <div class="fontlig f15">You Pay</div>
+            <div class="fontrobbold f36 pt10"><span>&#8377;&nbsp;</span><span id="undiscountedPrice">12,800</span></div>
+            <div class="fontreg f15 strike pt7" id="discountedPriceContainer"><span class="currency">&#8377;&nbsp;</span><span id="discountedPrice">16,000</span></div>
+          </div>
+          <!--start:coupon code-->
+          <div class="pb15 pt30 pos-rel">
+            <div class="disp-tbl f13 fontlig colrw fullwid pb10 disp-none" id="applyCouponDiv">
+              <div class="disp-cell vmid wid70p mem-bdr11 appcpn">
+                <input type="text" class="mem-outline-none brdr-0 colrw f11 fullwid bgnone" placeholder="Have coupon? Enter here" value="" name="" id="couponCode">
+              </div>
+              <div class="disp-cell vmid txtl mem-widp7 cursp js-coupon pl10" id="couponApplyBtn">Apply</div>
+            </div>
+            <div class="f13 fontlig colrw fullwid pb7 disp-none" id="couponSuccessDiv">
+              <div class="disp-cell vmid mem-widp8 appcpn"> <span id="textcoup" class=""></span>
+                <input type="text" name="" value="" placeholder="" class="disp-none brdr-0 colrw f13"/>
+              </div>
+              <div class="disp-cell vmid txtr mem-widp7 cursp js-coupon"><i class="mem-sprite mem-check2"></i></div>
+            </div>
+            <div class="mem_bgwh fullwid mem-hgt6"></div>
+            <div class="pos-abs leftcorner_trianle mem-pos5"></div>
+          </div>
+          <!--end:coupon code-->
+          <div id="noOptionSelected" class="disp-none txtc color5 fontreg f12 pb15">Please select a payment option</div>
+          <div style="overflow:hidden;position: relative;">
+            <div id="payNowBtn" class="fullwid bg_greyed txtc lh50"><span>&#8377;&nbsp;</span><span id="finalCartPrice">12,800&nbsp;|&nbsp;</span><span class="colrw" id="cartPaymentSpan">Pay Now</span></div>
+          </div>
+          <div class="pt10 f11 txtc">PRICE INCLUDES 15% SERVICE TAX</div>
+        </div>
+        <!--end:total--> 
+      </div>
+      <!--end:cart--> 
+    </div>
+    <!--end:div--> 
+  </div>
+</div>
+</div>
+<!--end:plan--> 
+
+<!--start:help widget--> 
+<!--start:overlay-->
+<div class="js-requestCallBackOverlay dspN fontlig">
+  <div class="overlay"></div>
+  <div class="modal fontlig"> 
+    <!--start:close button-->
+    <div class="posabs Widgicon Widicon4 js-requestCallBackClose"></div>
+    <!--end:close button-->
+    <div class="formpadt2 fontlig" id="requestForm">
+      <form id="Widget" action="javascript:void(0)" novalidate>
+        <div class="fontlig f15 txtc pb18">We will call you at the earliest after you submit the request</div>
+        <!--start:name-->
+        <div class="Widgetbox1 fontlig">
+          <input class="fontlig" type="email" tabindex="1" name="email" id="rq_email" placeholder="Email" value="atulsh1983@gmail.com" />
+        </div>
+        <span id="emailError" class="errorPad dspN fontlig"> </span> 
+        <!--end:name--> 
+        <!--start:mobile no-->
+        <div class="formpadt1">
+          <div class="Widgetbox1 fontlig">
+            <input class="fontlig" type="tel" tabindex="2" name="phone" id="rq_phone" placeholder="Mobile number" value="9910244159" />
+          </div>
+        </div>
+        <span id="phoneError" class="errorPad dspN fontlig"> </span> 
+        <!--end:mobile no--> 
+        <!--start:product-->
+        <div class="formpadt1 fontlig">
+          <dl id="sample4" class="dropdown">
+            <dt class="js-dt"> <span  id="typeOfQuery" tabindex="3" >What type of query do you have?</span>
+              <div class="posabs pos1 sideicon"></div>
+            </dt>
+            <dd class="js-dd">
+              <ul>
+                <li value="P">Questions or feedback regarding jeevansathi profile</li>
+                <li value="M">Query regarding jeevansathi membership plans</li>
+              </ul>
+            </dd>
+          </dl>
+          <input id="rq_query" type="hidden" name="query_type"/>
+        </div>
+        <span id="querryError" class="errorPad dspN"> </span> 
+        <!--end:product--> 
+        <!--start:button-->
+        <div class="formpadt1">
+          <div style="overflow: hidden;position: relative;">
+            <button type="submit" id="sidebarReqCallbackBtn" tabindex="4" class="cursp pinkRipple hoverPink bg_pink">Submit Request</button>
+          </div>
+        </div>
+        <!--end:button-->
+      </form>
+    </div>
+    <div id="requestLoader" class="formpadt3 dspN"> <img src="http://static.jeevansathi.com/images/colorbox/loader_big.gif"> </img> </div>
+    <div id="requestSuccessMsg" class="formpadt4 dspN"> </div>
+  </div>
+</div>
+<!--end:overlay--> 
+<!--start:helpwidget-->
+<div id="js-helpWidget" class="dspN pos_fix hlpwhite fontreg hlppos1 wid200" style="right: -171px;">
+  <div class="pos-rel clearfix">
+    <div class="Widposabs hlpcl1 js-helpCollapses l0">
+      <div class="vertical-text f12">HELP</div>
+    </div>
+    <div class="fr js-helpWidgetContent" style="width:171px">
+      <div class="clearfix padalls wid80p brdrb-8 pt20 pb20"> <i class="sprite2 helpic1 fl"></i>
+        <div class="fl color11 f14 pl9">1-800-419-6299</div>
+      </div>
+      <div class="clearfix padalls wid80p brdrb-8 pt20 pb20 js-openRequestCallBack"> <a href="#"><i class="sprite2 helpic2 fl"></i>
+        <div class="fl color11 f14 pl10">Request callback</div>
+        </a> </div>
+    </div>
+  </div>
+</div>
+<!--end:helpwidget--> 
+<script> var showExpandMode = "0"
+</script> 
+
+<!--end:help widget--> 
+<!--start:banner-->
+<div class="txtc bg-4 pt20 pb20" id="zt_616105_bottom"> </div>
+<!--end:banner--> 
+
+<!--start:footer-->
+<footer> 
+  <!--pixelcode for register page-->
+  <div id="js-footer">
+    <div class="bg_2">
+      <div class="container mainwid clearfix fontreg f15">
+        <div class="fl link wid500">
+          <ul class="lh50">
+            <li id="helplineNoFooter">1-800-419-6299 (Toll Free)</li>
+            <li>|</li>
+            <li id="footerRequestCallback" class="cursp">Request Callback </li>
+            <li>|</li>
+            <li id="liveChatLinkFooter" class="cursp">Live Chat</li>
+          </ul>
+        </div>
+        <div class="fl cards mt3">
+          <ul class="mt8">
+            <li><i class="headfootsprtie visa"></i></li>
+            <li><i class="headfootsprtie mcard"></i></li>
+          </ul>
+        </div>
+        <div class="fr socialicons">
+          <ul class="mt8">
+            <li><a itemprop="sameAs" href="http://www.facebook.com/jeevansathi" target="_blank" class="disp_b headfootsprtie facebooksmall"></a></li>
+            <li><a itemprop="sameAs" href="http://www.twitter.com/jeevansathi_com" target="_blank" class="disp_b headfootsprtie twittersmall"></a></li>
+            <li><a itemprop="sameAs" href="https://www.linkedin.com/company/info-edge-india-ltd" target="_blank" class="disp_b headfootsprtie linkedinsmall"></a></li>
+            <li><a itemprop="sameAs" href="https://plus.google.com/117800057348280296221" target="_blank" class="disp_b headfootsprtie gplussmall"></a></li>
+          </ul>
+        </div>
+        <!--start:callback form-->
+        <div id="footerRequestCallbackLogout" class="pos-abs z5" style="display:none"> <i class="reqCalbck-sprite pos-abs reqCalbck-cross2 cursp reqCalbck-pos12" id="footerRequestCallbackLogoutCloseBtn"></i>
+          <div class="bg-white" style="width:450px;border-radius:5px">
+            <div class="reqCalbck-pad33">
+              <form>
+                <div id="footerReqEmail" class="reqCalbck-bdr12 f17 pb5">
+                  <input type="text" class="fullwid brdr-0 f17 color11 fontlig whiteout" placeholder="E-Mail" value=""/>
+                </div>
+                <div id="footerReqEmailError" style="color:red;display:none" class="f14 pt8">Please provide a valid E-Mail Id</div>
+                <div id="footerReqMob" class="reqCalbck-bdr12 f17 pb5 pt20">
+                  <input type="text" class="fullwid brdr-0 f17 color11 fontlig whiteout" placeholder="Mobile number" value=""/>
+                </div>
+                <div id="footerReqMobError" style="color:red;display:none" class="f14 pt8">Please provide a valid Phone Number</div>
+                <div class="pt20">
+                  <div class="reqCalbck-bdr12 colr2 f17 pb5 pt10 cursp pos-rel js-drop" id="footerDatefld"> <span class="footerDatefld-val f15 fontlig js-fill">Questions regarding Jeevansathi Membership Plans</span>
+                    <div class="pos-abs reqCalbck-leftcorner_trianle1 reqCalbck-pos6 z2"></div>
+                    <div class="pos-abs fullwid reqCalbck-pos7">
+                      <div id="reqCalbck-content-1" class="reqCalbck-content z1 reqCalbck-drop1 footerDatefld-drop disp-none" >
+                        <ul data-attr="footerDatefld-list">
+                          <li selectedid="M" class="fontlig f14 active">Questions regarding Jeevansathi Membership Plans</li>
+                          <li selectedid="P" class="fontlig f14">Questions or feedback regarding Jeevansathi Profile</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div id="footerReqQueryError" style="color:red;display:none" class="f14 pt8">Please select a valid Query Type</div>
+                <div class="pt20">
+                  <div style="overflow: hidden;position: relative;">
+                    <div id="footerSubmitCallbackRequest" class="cursp fullwid bg_pink txtc lh50 colrw pinkRipple hoverPink">Submit Request</div>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div id="footerRequestCallbackLogin" class="pos-abs z5" style="display:none"> <i class="reqCalbck-sprite pos-abs reqCalbck-cross2 cursp reqCalbck-pos12" id="footerRequestCallbackLoginCloseBtn"></i>
+          <div class="bg-white" style="width:450px;border-radius:5px">
+            <div class="reqCalbck-pad33">
+              <div id="footerReqCallBackMessage" class="fullwid txtc lh20" style="color: black"></div>
+            </div>
+          </div>
+        </div>
+        <!--end:callback form--> 
+        <script type="text/javascript">
+var loginData = new Array();
+
+
+$(window).load(function(){
+var reqCallbackError = true;
+var regExEmail=/^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,4})$/;
+var regExIndian=/^((\+){0,1}91(\s){0,1}(\-){0,1}(\s){0,1})?([0-9]{10})$/;
+var regExIndianLandline=/^[0-9]\d{2,4}[-. ]?\d{6,8}$/;
+var regExInternational=/^\+(?:[0-9][-. ]? ?){7,14}[0-9]$/;
+var module = "membership";
+var loggedIn = "1";
+var loginPhone = "9910244159";
+var loginEmail = "atulsh1983@gmail.com";
+
+if(loginEmail){
+$('#footerReqEmail input').val(loginEmail);
+}
+
+if(loginPhone){
+$('#footerReqMob input').val(loginPhone);
+}
+
+$("#footerRequestCallback").click(function(e){
+if(!$(".overlay1").length){
+$("#js-footer").addClass('pos-rel layersZ');
+$("#footerRequestCallback").addClass('js-reqcallbck opa50');
+$('footer').before('<div class="overlay1"></div>');
+$("#footerRequestCallbackLogout").show();
+} else {
+$("#js-footer").removeClass('pos-rel layersZ');
+$("#footerRequestCallback").removeClass('js-reqcallbck opa50');
+$('.overlay1').remove();
+$("#footerRequestCallbackLogout").hide();
+$("#footerRequestCallbackLogin").hide();
+}
+});
+
+$('#footerReqEmail input').on('blur', function() {
+if(!regExEmail.test($(this).val().tolowerCase())){
+$("#footerReqEmailError").show();
+reqCallbackError = true;
+} else {
+$("#footerReqEmailError").hide();
+reqCallbackError = false;
+}
+});
+
+$('#footerReqMob input').on('blur', function() {
+if(!regExIndian.test($(this).val()) && !regExInternational.test($(this).val()) && !regExIndianLandline.test($(this).val())) {
+$("#footerReqMobError").show();
+reqCallbackError = true;
+} else {
+$("#footerReqMobError").hide();
+reqCallbackError = false;
+}
+});
+
+$("#footerSubmitCallbackRequest").click(function(e){
+var phNo = $("#footerReqMob input").val();
+var email = $("#footerReqEmail input").val().toLowerCase();
+var selectedid = $("#footerDatefld ul li.active").attr('selectedid');
+if((regExIndian.test(phNo) || regExInternational.test(phNo) || regExIndianLandline.test(phNo)) && regExEmail.test(email) && selectedid != 'Q') {
+if(selectedid == 'M') {
+$.post("/membership/addCallBck",{'phNo':phNo.trim(),'email':email.trim(),'jsSelectd':'P3','execCallbackType':'JS_ALL','tabVal':1,'device':'desktop'},function(response){
+$("#footerReqCallBackMessage").text(response);
+$("#footerRequestCallbackLogout").hide();
+$("#footerRequestCallbackLogin").show();
+$("#footerReqQueryError").hide();
+$("#footerReqEmailError").hide();
+$("#footerReqMobError").hide();
+});
+} else {
+$.post("/common/requestCallBack",{'email':email.trim(),'phone':phNo.trim(),'query_type':'P'},function(response){
+if(response == "Y") {
+$("#footerReqCallBackMessage").text('We shall call you at the earliest');
+} else {
+$("#footerReqCallBackMessage").text('Something Went Wrong...\nPlease try again !');
+}
+$("#footerRequestCallbackLogout").hide();
+$("#footerRequestCallbackLogin").show();
+$("#footerReqQueryError,#footerReqEmailError,#footerReqMobError").hide();
+});
+}
+} else {
+if(!regExIndian.test(phNo) && !regExInternational.test(phNo) && !regExIndianLandline.test(phNo)) {
+$("#footerReqMobError").show();
+}
+if(!regExEmail.test(email)){
+$("#footerReqEmailError").show();
+}
+if(selectedid == "Q"){
+$("#footerReqQueryError").show();
+}
+}
+});
+
+$('#footerRequestCallbackLoginCloseBtn, #footerRequestCallbackLogoutCloseBtn').click(function(e){
+$("#js-footer").removeClass('pos-rel layersZ');
+$("#topNavigationBar").addClass('layersZ');
+$("#footerRequestCallback").removeClass('js-reqcallbck opa50');
+$('.overlay1').remove();
+$("#footerRequestCallbackLogout").hide();
+$("#footerRequestCallbackLogin").hide();
+});
+
+$("#footerRequestCallbackLogout,#footerRequestCallbackLogin").css('left','215px');
+$("#footerRequestCallbackLogout").css('top','-295px');
+$("#footerRequestCallbackLogin").css('top','-135px');
+
+$(document).keyup(function(e) {
+if($("#footerRequestCallbackLogout,#footerRequestCallbackLogin").is(':visible')){
+if (e.keyCode == 27) {
+$("#js-footer").removeClass('pos-rel layersZ');
+$("#topNavigationBar").addClass('layersZ');
+$("#footerRequestCallback").removeClass('js-reqcallbck opa50');
+$('.overlay1').remove();
+$("#footerRequestCallbackLogout,#footerRequestCallbackLogin").hide();
+}
+}
+});
+
+});
+$(function() {
+$('.js-drop').click(function() {
+$('.js-drop .reqCalbck-drop1').slideDown(300);
+var getElemId = $(this).attr('id');
+var DropDownName = getElemId;
+});
+$('.reqCalbck-drop1 ul li').click(function(event) {
+event.stopPropagation();
+$(this).addClass('active');
+var OptSel = $(this).text();
+var getlistName = $(this).parent().attr('data-attr');
+var b = getlistName.split('-');
+var temp = b[0];
+$('span.' + temp + '-val').text(OptSel);
+$('.js-drop .reqCalbck-drop1').slideUp(300);
+});
+$('.js-fill').on('keydown', function(e) {
+var s = String.fromCharCode(e.which);
+});
+});
+</script> 
+      </div>
+    </div>
+    <!--start:partner site-->
+    <div class="bg-white">
+      <div class="container mainwid">
+        <div class="pb10 pt10 wid800 clearfix txtc pl128">
+          <div class="f12 color6 fl pt30 pr36 fontreg">Partner Sites</div>
+          <!--start:slider-->
+          <div class="fl" style="width:600px;height:80px">
+            <div id="slider">
+              <div id="images">
+                <div class="basic">
+                  <ul>
+                    <li class="pl17"><a href="http://www.99acres.com" target="_blank" title="99acres.com"><i class="headfootsprtie acre"></i></a></li>
+                    <li class="pl17"><a href="http://www.naukri.com" target="_blank" title="naukri.com"><i class="headfootsprtie nc"></i></a></li>
+                    <li class="pl17"><a href="http://www.naukrigulf.com" target="_blank" title="naukrigulf"><i class="headfootsprtie ng"></i></a></li>
+                    <li class="pl30"><a href="http://www.shiksha.com" target="_blank" title="shiksha"><i class="headfootsprtie shiksha"></i></a></li>
+                  </ul>
+                </div>
+                <div class="basic">
+                  <div>
+                    <ul>
+                      <li class="pl17"><a href="http://www.mydala.com" target="_blank" title="mydala"><i class="headfootsprtie mydala"></i></a></li>
+                      <li class="pl30"><a href="http://www.policybazar.com" target="_blank" title="policybazar"><i class="headfootsprtie pb"></i></a></li>
+                      <li class="pl40"><a href="http://www.zomato.com" target="_blank" title="zomato"><i class="headfootsprtie zomato"></i></a></li>
+                      <li class="pl20"><a href="http://www.meritnation.com" target="_blank" title="meritnation"><i class="headfootsprtie meritn"></i></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <a id="prev" href="javascript:void(0);"> <i class="headfootsprtie leftslide"></i> </a> <a id="next" href="javascript:void(0);"> <i class="headfootsprtie rightsmall"></i> </a> </div>
+          </div>
+          <!--endt:slider--> 
+        </div>
+        <div class="txtc pb15">
+          <ul class="hor_list clearfix f13 fontlig disp_ib">
+            <li class="pl5"><a href="/?mobile_view=Y" class="color11">View Mobile Version</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!--end:partner site-->
+    <div class="bg_3">
+      <div class="padall-10 txtc f12 fontreg colr2"> All rights reserved © 2016 Jeevansathi Internet Services. </div>
+    </div>
+  </div>
+</footer>
+<!--end:footer--> 
+<script type="text/javascript">
+$(window).load(function(){
+var udObj = '{"username":"ZVVY1151","email":"atulsh1983@gmail.com"}';
+var userDetails = $.parseJSON(udObj);
+populateFreshDeskGlobal(userDetails['username'], userDetails['email']);
+popupFreshDeskGlobal(userDetails['username'], userDetails['email']);
+slider();
+initializeTopNavBar("1","13171207","membership","jspc");
+});
+</script> 
+<script type = 'text/javascript'>
+$(window).load(function(){
+setTimeout(function(){
+var len = $('script[src*="js/visitor.js"]').length;
+if(len === 0) {
+var isSecured = (window.location && window.location.protocol == 'https:');
+var fc_CSS = document.createElement('link');
+fc_CSS.setAttribute('rel', 'stylesheet');
+var rtlSuffix = ((document.getElementsByTagName('html')[0].getAttribute('lang')) === 'ar') ? '-rtl' : '';
+fc_CSS.setAttribute('type', 'text/css');
+fc_CSS.setAttribute('href', ((isSecured) ? 'https://d36mpcpuzc4ztk.cloudfront.net' : 'http://assets1.chat.freshdesk.com') + '/css/visitor' + rtlSuffix + '.css');
+document.getElementsByTagName('head')[0].appendChild(fc_CSS);
+var fc_JS = document.createElement('script');
+fc_JS.type = 'text/javascript';
+fc_JS.src = ((isSecured) ? 'https://d36mpcpuzc4ztk.cloudfront.net' : 'http://assets.chat.freshdesk.com') + '/js/visitor.js';
+nativeReduce = undefined;
+(document.body ? document.body : document.getElementsByTagName('head')[0]).appendChild(fc_JS);
+window.freshchat_setting = 'eyJ3aWRnZXRfc2l0ZV91cmwiOiJqZWV2YW5zYXRoaS5mcmVzaGRlc2suY29tIiwicHJvZHVjdF9pZCI6bnVsbCwibmFtZSI6IkluZm8gRWRnZSBJbmRpYSBMdGQuIiwid2lkZ2V0X2V4dGVybmFsX2lkIjpudWxsLCJ3aWRnZXRfaWQiOiIwYmJiNTU3OS1hYzQ0LTQ5ZTktOTQ1OS03NWZjY2JkOWQ3MjYiLCJzaG93X29uX3BvcnRhbCI6dHJ1ZSwicG9ydGFsX2xvZ2luX3JlcXVpcmVkIjpmYWxzZSwiaWQiOjUwMDAwNTM1NzYsIm1haW5fd2lkZ2V0Ijp0cnVlLCJmY19pZCI6ImE3MDI5YTQ5N2MzN2E4YzUwZGRiODVjZTM5OWIxM2JjIiwic2hvdyI6MSwicmVxdWlyZWQiOjIsImhlbHBkZXNrbmFtZSI6IkluZm8gRWRnZSBJbmRpYSBMdGQuIiwibmFtZV9sYWJlbCI6Ik5hbWUiLCJtYWlsX2xhYmVsIjoiRW1haWwiLCJtZXNzYWdlX2xhYmVsIjoiTWVzc2FnZSIsInBob25lX2xhYmVsIjoiUGhvbmUgTnVtYmVyIiwidGV4dGZpZWxkX2xhYmVsIjoiVGV4dGZpZWxkIiwiZHJvcGRvd25fbGFiZWwiOiJEcm9wZG93biIsIndlYnVybCI6ImplZXZhbnNhdGhpLmZyZXNoZGVzay5jb20iLCJub2RldXJsIjoiY2hhdC5mcmVzaGRlc2suY29tIiwiZGVidWciOjEsIm1lIjoiTWUiLCJleHBpcnkiOjE0NDU4NTIwNjEwMDAsImVudmlyb25tZW50IjoicHJvZHVjdGlvbiIsImRlZmF1bHRfd2luZG93X29mZnNldCI6MzAsImRlZmF1bHRfbWF4aW1pemVkX3RpdGxlIjoiQ2hhdCBpbiBwcm9ncmVzcyIsImRlZmF1bHRfbWluaW1pemVkX3RpdGxlIjoiTGV0J3MgdGFsayEiLCJkZWZhdWx0X3RleHRfcGxhY2UiOiJZb3VyIE1lc3NhZ2UiLCJkZWZhdWx0X2Nvbm5lY3RpbmdfbXNnIjoiV2FpdGluZyBmb3IgYW4gYWdlbnQiLCJkZWZhdWx0X3dlbGNvbWVfbWVzc2FnZSI6IkhpISBIb3cgY2FuIHdlIGhlbHAgeW91IHRvZGF5PyIsImRlZmF1bHRfd2FpdF9tZXNzYWdlIjoiT25lIG9mIHVzIHdpbGwgYmUgd2l0aCB5b3UgcmlnaHQgYXdheSwgcGxlYXNlIHdhaXQuIiwiZGVmYXVsdF9hZ2VudF9qb2luZWRfbXNnIjoie3thZ2VudF9uYW1lfX0gaGFzIGpvaW5lZCB0aGUgY2hhdCIsImRlZmF1bHRfYWdlbnRfbGVmdF9tc2ciOiJ7e2FnZW50X25hbWV9fSBoYXMgbGVmdCB0aGUgY2hhdCIsImRlZmF1bHRfYWdlbnRfdHJhbnNmZXJfbXNnX3RvX3Zpc2l0b3IiOiJZb3VyIGNoYXQgaGFzIGJlZW4gdHJhbnNmZXJyZWQgdG8ge3thZ2VudF9uYW1lfX0iLCJkZWZhdWx0X3RoYW5rX21lc3NhZ2UiOiJUaGFuayB5b3UgZm9yIGNoYXR0aW5nIHdpdGggdXMuIElmIHlvdSBoYXZlIGFkZGl0aW9uYWwgcXVlc3Rpb25zLCBmZWVsIGZyZWUgdG8gcGluZyB1cyEiLCJkZWZhdWx0X25vbl9hdmFpbGFiaWxpdHlfbWVzc2FnZSI6Ik91ciBhZ2VudHMgYXJlIHVuYXZhaWxhYmxlIHJpZ2h0IG5vdy4gU29ycnkgYWJvdXQgdGhhdCwgYnV0IHBsZWFzZSBsZWF2ZSB1cyBhIG1lc3NhZ2UgYW5kIHdlJ2xsIGdldCByaWdodCBiYWNrLiIsImRlZmF1bHRfcHJlY2hhdF9tZXNzYWdlIjoiV2UgY2FuJ3Qgd2FpdCB0byB0YWxrIHRvIHlvdS4gQnV0IGZpcnN0LCBwbGVhc2UgdGVsbCB1cyBhIGJpdCBhYm91dCB5b3Vyc2VsZi4iLCJhZ2VudF90cmFuc2ZlcmVkX21zZyI6IllvdXIgY2hhdCBoYXMgYmVlbiB0cmFuc2ZlcnJlZCB0byB7e2FnZW50X25hbWV9fSIsImFnZW50X3Jlb3Blbl9jaGF0X21zZyI6Int7YWdlbnRfbmFtZX19IHJlb3BlbmVkIHRoZSBjaGF0IiwidmlzaXRvcl9zaWRlX2luYWN0aXZlX21zZyI6IlRoaXMgY2hhdCBoYXMgYmVlbiBpbmFjdGl2ZSBmb3IgdGhlIHBhc3QgMjAgbWludXRlcy4iLCJhZ2VudF9kaXNjb25uZWN0X21zZyI6Int7YWdlbnRfbmFtZX19IGhhcyBiZWVuIGRpc2Nvbm5lY3RlZCIsInNpdGVfaWQiOiJhNzAyOWE0OTdjMzdhOGM1MGRkYjg1Y2UzOTliMTNiYyIsImFjdGl2ZSI6dHJ1ZSwid2lkZ2V0X3ByZWZlcmVuY2VzIjp7IndpbmRvd19jb2xvciI6IiM3Nzc3NzciLCJ3aW5kb3dfcG9zaXRpb24iOiJCb3R0b20gUmlnaHQiLCJ3aW5kb3dfb2Zmc2V0IjoiMzAiLCJtaW5pbWl6ZWRfdGl0bGUiOiJMZXQncyB0YWxrISIsIm1heGltaXplZF90aXRsZSI6IkNoYXQgaW4gcHJvZ3Jlc3MiLCJ0ZXh0X3BsYWNlIjoiWW91ciB0ZXh0IGdvZXMgaGVyZSIsIndlbGNvbWVfbWVzc2FnZSI6IkhpISBIb3cgY2FuIHdlIGhlbHAgeW91IHRvZGF5PyIsInRoYW5rX21lc3NhZ2UiOiJUaGFuayB5b3UgZm9yIGNoYXR0aW5nIHdpdGggdXMuIElmIHlvdSBoYXZlIGFkZGl0aW9uYWwgcXVlc3Rpb25zLCBmZWVsIGZyZWUgdG8gcGluZyB1cyEiLCJ3YWl0X21lc3NhZ2UiOiJPbmUgb2YgdXMgd2lsbCBiZSB3aXRoIHlvdSByaWdodCBhd2F5LCBwbGVhc2Ugd2FpdC4iLCJjb25uZWN0aW5nX21zZyI6IndhaXRpbmcgZm9yIGFnZW50IiwiYWdlbnRfbGVmdF9tc2ciOiJ7e2FnZW50X25hbWV9fSBoYXMgbGVmdCB0aGUgY2hhdCAiLCJhZ2VudF9qb2luZWRfbXNnIjoie3thZ2VudF9uYW1lfX0gb2Yge3toZWxwZGVza19uYW1lfX0gaGFzIGpvaW5lZCB0aGUgY2hhdCJ9LCJyb3V0aW5nIjp7ImRyb3Bkb3duX2Jhc2VkIjoiZmFsc2UiLCJjaG9pY2VzIjp7Imxpc3QxIjpbIjAiXSwibGlzdDIiOlsiMCJdLCJsaXN0MyI6WyIwIl0sImRlZmF1bHQiOlsiMCJdfX0sInByZWNoYXRfZm9ybSI6dHJ1ZSwicHJlY2hhdF9tZXNzYWdlIjoiV2UgY2FuJ3Qgd2FpdCB0byB0YWxrIHRvIHlvdS4gQnV0IGZpcnN0LCBwbGVhc2UgdGFrZSBhIGNvdXBsZSBvZiBtb21lbnRzIHRvIHRlbGwgdXMgYSBiaXQgYWJvdXQgeW91cnNlbGYuIiwicHJlY2hhdF9maWVsZHMiOnsibmFtZSI6eyJ0aXRsZSI6Ik5hbWUiLCJzaG93IjoiMiJ9LCJlbWFpbCI6eyJ0aXRsZSI6IkVtYWlsIEFkZHJlc3MiLCJzaG93IjoiMSJ9LCJwaG9uZSI6eyJ0aXRsZSI6IlBob25lIE51bWJlciIsInNob3ciOiIxIn0sInRleHRmaWVsZCI6eyJ0aXRsZSI6Ik1lc3NhZ2UiLCJzaG93IjoiMCJ9LCJkcm9wZG93biI6eyJ0aXRsZSI6IkRyb3BEb3duIiwic2hvdyI6IjAiLCJvcHRpb25zIjpbImxpc3QxIiwibGlzdDIiLCJsaXN0MyJdfX0sImJ1c2luZXNzX2NhbGVuZGFyIjpudWxsLCJub25fYXZhaWxhYmlsaXR5X21lc3NhZ2UiOm51bGwsInByb2FjdGl2ZV9jaGF0Ijp0cnVlLCJwcm9hY3RpdmVfdGltZSI6MTUsInNpdGVfdXJsIjoiamVldmFuc2F0aGkuZnJlc2hkZXNrLmNvbSIsImV4dGVybmFsX2lkIjpudWxsLCJkZWxldGVkIjpmYWxzZSwib2ZmbGluZV9jaGF0Ijp7InNob3ciOiIxIiwiZm9ybSI6eyJuYW1lIjoiTmFtZSIsImVtYWlsIjoiRW1haWwiLCJtZXNzYWdlIjoiTWVzc2FnZSJ9LCJtZXNzYWdlcyI6eyJ0aXRsZSI6IkxlYXZlIHVzIGEgbWVzc2FnZSEiLCJ0aGFuayI6IlRoYW5rIHlvdSBmb3Igd3JpdGluZyB0byB1cy4gV2Ugd2lsbCBnZXQgYmFjayB0byB5b3Ugc2hvcnRseS4iLCJ0aGFua19oZWFkZXIiOiJUaGFuayB5b3UhIn19LCJtb2JpbGUiOnRydWUsImNyZWF0ZWRfYXQiOiIyMDE0LTEyLTI3VDAzOjA2OjUzLjAwMFoiLCJ1cGRhdGVkX2F0IjoiMjAxNS0xMC0wNVQxMTo0ODo0MS4wMDBaIn0=';
+}
+}, 5000);
+});
+</script> 
+<script type="text/javascript">
+$(window).load(function() {
+eraseCookie('paymentMode');
+eraseCookie('cardType');
+eraseCookie('couponID');
+var couponAjaxResponse = 0;
+var day=new Array(),month=new Array(),year=new Array();
+var s="07 Jun 2016".split(" ");
+day.push(s[0]);month.push(s[1]);year.push(s[2]);
+month = $.unique(month);
+year = $.unique(year);
+var s="08 Jun 2016".split(" ");
+day.push(s[0]);month.push(s[1]);year.push(s[2]);
+month = $.unique(month);
+year = $.unique(year);
+var s="09 Jun 2016".split(" ");
+day.push(s[0]);month.push(s[1]);year.push(s[2]);
+month = $.unique(month);
+year = $.unique(year);
+var s="10 Jun 2016".split(" ");
+day.push(s[0]);month.push(s[1]);year.push(s[2]);
+month = $.unique(month);
+year = $.unique(year);
+var s="11 Jun 2016".split(" ");
+day.push(s[0]);month.push(s[1]);year.push(s[2]);
+month = $.unique(month);
+year = $.unique(year);
+var s="12 Jun 2016".split(" ");
+day.push(s[0]);month.push(s[1]);year.push(s[2]);
+month = $.unique(month);
+year = $.unique(year);
+var s="13 Jun 2016".split(" ");
+day.push(s[0]);month.push(s[1]);year.push(s[2]);
+month = $.unique(month);
+year = $.unique(year);
+showPreferredDatesDropDown(day, month, year);
+payAtBranchesTransition();
+setCouponCodeField("");
+var amount = parseFloat("12,800".replace(',', ''));
+displayChequeAmount(amount);
+displayChequeDate();
+$("select.custom").each(function() {
+var sb = new SelectBox({
+selectbox: $(this),
+height: 150,
+width: '100%',
+customScrollbar: true,
+changeCallback: function(e) {
+payAtBranchesTransition();
+var type = $("a.accordion-section-title.active").attr('id');
+if(type != 'cashPickUp'){
+var response = manageSelectedItem();
+if(response){
+enablePayNowButtonCartPage();
+} else {
+disablePayNowButtonCartPage();
+}
+}
+}
+});
+});
+$("a.accordion-section-title").click(function(e){
+// Grab current anchor value
+var currentAttrValue = $(this).attr('href');
+var currentTabName = $(this).html();
+var paymentOpt = $(this).attr('paymentSel');
+if ($(e.target).is('.active')) {
+if ($(this).attr('id') == 'cashPickUp') {
+eraseCookie('paymentMode');
+eraseCookie('cardType');
+disablePayNowButtonCartPage();
+}
+close_accordion_section();
+} else {
+close_accordion_section();
+// Add active class to section title
+$(this).addClass('active');
+// Open up the hidden content panel
+$('.accordion ' + currentAttrValue).slideDown().addClass('open');
+}
+if (checkEmptyOrNull(paymentOpt)) {
+$("#accordion-" + paymentOpt + " .jspScrollable dd.itm-0").trigger('click');
+$("#accordion-" + paymentOpt + " .defaultScrollbar dd.itm-0").trigger('click');
+$("#accordion-" + paymentOpt).find('.selectedValue').html('Select '+currentTabName);
+eraseCookie('paymentMode');
+eraseCookie('cardType');
+}
+e.preventDefault();
+manageCartPaymentButtonTextChange();
+});
+var scrollPos;
+var cityRes = "Delhi";
+cityRes = cityRes.replace(/([!@#$%^&*()_+={}\[\]\|\\:;'<>,.\/? ])+/g, '').replace(/^(-)+|(-)+$/g,'');
+scrollPos = $("#city").find('#'+cityRes).offset();
+if(scrollPos)
+{
+$('html','body').animate({
+scrollTop:scrollPos.top
+},0);
+}
+$("#couponCode").focusin(function(){
+if($(this).hasClass("colr5")){
+$(this).val("");
+}
+$("#couponCode").removeClass("colr5");
+$(this).removeAttr("placeholder");
+});
+$("#couponCode").focusout(function(){
+if(!$(this).val())
+$(this).attr("placeholder","Have coupon? Enter here");
+});
+$("#couponApplyBtn").click(function(){
+var couponID=$("#couponCode").val().replace(/^\s+|\s+$/g,'');
+var paramStr='validateCoupon=1&couponID='+couponID+'&serviceID='+readCookie('mainMem')+readCookie('mainMemDur');
+var priceToBeDiscouted=0,originalPrice=0;
+priceToBeDiscouted="12,800";
+originalPrice="16,000";
+applyCouponOnCart(couponID,paramStr,priceToBeDiscouted,originalPrice);
+});
+
+$("#payNowBtn").click(function(e){
+if($("#cashPickUp").hasClass("active")){
+var isValid=validateCashPickupForm();
+if(isValid){
+var mainMembership = readCookie('mainMem')+readCookie('mainMemDur');
+var vasImpression = readCookie('selectedVas');
+var name = encodeURIComponent($("#chequePickUpName").val().replace(/^\s+|\s+$/g, ''));
+var landline = encodeURIComponent($("#chequePickUpPhone").val().replace(/^\s+|\s+$/g, ''));
+var mobile = encodeURIComponent($("#chequePickUpMobile").val().replace(/^\s+|\s+$/g, ''));
+var address = encodeURIComponent($("#chequePickUpAddress").val().replace(/^\s+|\s+$/g, ''));
+var comment = encodeURIComponent($("#chequePickUpComments").val().replace(/^\s+|\s+$/g, ''));
+var city = encodeURIComponent($("#select-cashCity .selectedValue").text());
+var month = "JanFebMarAprMayJunJulAugSepOctNovDec".indexOf($("#select-preferredDateMonth .selectedValue").text()) / 3 + 1;
+var date = $("#select-preferredDateYear .selectedValue").text()+"-"+pad(month,2)+"-"+$("#select-preferredDateDay .selectedValue").text()+" 00:00:00";
+//var match = date.match(/^(\d+)-(\d+)-(\d+) (\d+)\:(\d+)\:(\d+)$/);
+//date = new Date(match[1], match[2] - 1, match[3], match[4], match[5], match[6]);
+//date = date.getTime() / 1000;
+var paramStr = 'pickupRequest=1' + '&name=' + name + '&landline=' + landline + '&mobile=' + mobile + '&address=' + address + '&comment=' + comment + '&city=' + city + '&date=' + date + "&device=desktop" + "&mainMembership=" + mainMembership + "&vasImpression=" + vasImpression + "&couponID=" + readCookie('couponID');
+paramStr = paramStr.replace(/amp;/g, '');
+url = "/api/v3/membership/membershipDetails?" + paramStr;
+$.myObj.ajax({
+type: 'POST',
+url: url,
+success: function(data) {
+response = data;
+if (data.status == 1) {
+$.redirectPost('/membership/jspc', {'displayPage':7, 'mainMembership':mainMembership, 'vasImpression':readCookie('selectedVas'), 'profileid':"13171207", 'device':'desktop'});
+}
+}
+});
+}
+}
+if (checkEmptyOrNull(readCookie('paymentMode')) && checkEmptyOrNull(readCookie('cardType'))) {
+if (checkEmptyOrNull(readCookie('mainMem')) && checkEmptyOrNull(readCookie('mainMemDur'))) {
+if($.inArray(readCookie('mainMem'),skipVasPageMembershipBased)>-1) {
+if (checkEmptyOrNull(readCookie('couponID'))) {
+$.redirectPost('/api/v3/membership/membershipDetails', {'processPayment':1, 'mainMembership':readCookie('mainMem')+readCookie('mainMemDur'), 'vasImpression':'', 'couponID':readCookie('couponID'), 'device':'desktop', 'paymentMode':readCookie('paymentMode'), 'cardType':readCookie('cardType')});
+} else {
+$.redirectPost('/api/v3/membership/membershipDetails', {'processPayment':1, 'mainMembership':readCookie('mainMem')+readCookie('mainMemDur'), 'vasImpression':'', 'device':'desktop', 'paymentMode':readCookie('paymentMode'), 'cardType':readCookie('cardType')});
+}
+} else if (checkEmptyOrNull(readCookie('selectedVas'))) {
+if (checkEmptyOrNull(readCookie('couponID'))) {
+$.redirectPost('/api/v3/membership/membershipDetails', {'processPayment':1, 'mainMembership':readCookie('mainMem')+readCookie('mainMemDur'), 'vasImpression':readCookie('selectedVas'), 'couponID':readCookie('couponID'), 'device':'desktop', 'paymentMode':readCookie('paymentMode'), 'cardType':readCookie('cardType')});
+} else {
+$.redirectPost('/api/v3/membership/membershipDetails', {'processPayment':1, 'mainMembership':readCookie('mainMem')+readCookie('mainMemDur'), 'vasImpression':readCookie('selectedVas'), 'device':'desktop', 'paymentMode':readCookie('paymentMode'), 'cardType':readCookie('cardType')});
+}
+} else {
+if (checkEmptyOrNull(readCookie('couponID'))) {
+$.redirectPost('/api/v3/membership/membershipDetails', {'processPayment':1, 'mainMembership':readCookie('mainMem')+readCookie('mainMemDur'), 'vasImpression':'', 'couponID':readCookie('couponID'), 'device':'desktop', 'paymentMode':readCookie('paymentMode'), 'cardType':readCookie('cardType')});
+} else {
+$.redirectPost('/api/v3/membership/membershipDetails', {'processPayment':1, 'mainMembership':readCookie('mainMem')+readCookie('mainMemDur'), 'vasImpression':'', 'device':'desktop', 'paymentMode':readCookie('paymentMode'), 'cardType':readCookie('cardType')});
+}
+}
+} else if (checkEmptyOrNull(readCookie('selectedVas'))) {
+if (checkEmptyOrNull(readCookie('couponID'))) {
+$.redirectPost('/api/v3/membership/membershipDetails', {'processPayment':1, 'mainMembership':'', 'vasImpression':readCookie('selectedVas'), 'couponID':readCookie('couponID'), 'device':'desktop', 'paymentMode':readCookie('paymentMode'), 'cardType':readCookie('cardType')});
+} else {
+$.redirectPost('/api/v3/membership/membershipDetails', {'processPayment':1, 'mainMembership':'', 'vasImpression':readCookie('selectedVas'), 'device':'desktop', 'paymentMode':readCookie('paymentMode'), 'cardType':readCookie('cardType')});
+}
+}
+} else {
+e.preventDefault();
+if($("#cashPickUp").hasClass("active") || $("#payAtBranches").hasClass('active')){
+$('#noOptionSelected').addClass('disp-none');
+} else {
+$('#noOptionSelected').removeClass('disp-none');
+}
+}
+});
+});
+</script> 
+<script>
+        //alert("setting JSLoad 1");
+        jsLoadFlag = 1;
+	var jsLogin_layer=1;
+        </script> 
+<script type="text/javascript" src="http://static.jeevansathi.com/min/?f=/js/helpWidget_js_7.js,/js/jspc/common/commonJspc_js_11.js,/js/jspc/login/loginLayer_js_12.js,/js/jspc/common/urlHandling_1.js,/js/jspc/common/jquery_mCustomScrollbar_1.js,/js/jspc/common/jquery_mousewheel_1.js,/js/commonExpiration_js_2.js,/js/rippleEffectCommon_js_3.js,/js/common_comscore_js_2.js"></script> 
+<script type="text/javascript" src="http://static.jeevansathi.com/min/?f=/js/jspc/membership/jspc_mem_slider_1.js,/js/jspc/membership/jspc_mem_js_9.js,/js/jspc/membership/jspc_mem_sweetalert_1.js,/js/jspc/membership/jspc_mem_scrollpane_1.js,/js/jspc/membership/jspc_mem_mousewheel_1.js,/js/jspc/membership/jspc_mem_select_box_1.js,/js/jspc/membership/jspc_mem_md5_1.js"></script> 
+
+<!--Google Analytics Code-->
+</body>
+</html>
